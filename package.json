@@ -1,7 +1,7 @@
 {
   "name": "rio-practical",
   "version": "0.1.0",
-  "homepage": "https://riopraticalpistol.com",
+  "homepage": "https://riopracticalpistol.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
