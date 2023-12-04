@@ -45,7 +45,7 @@ export default function Sponsors() {
             <Card
               sx={{
                 p: 2,
-                mt: { xs: -80, lg: -90 },
+                mt: { xs: -60, lg: -90 },
                 mb: 4,
                 backgroundColor: ({
                   palette: { white },
@@ -73,8 +73,10 @@ export default function Sponsors() {
                       Sponsor
                     </b>
                     . Please feel free to contact us at{" "}
-                    <a href="mailto:rioipsc@gmail.com">rioipsc@gmail.com</a> if
-                    you would like to be a sponsor or have any questions.
+                    <a href="mailto:rioipscsponsorship@gmail.com">
+                      rioipscsponsorship@gmail.com
+                    </a>{" "}
+                    if you would like to be a sponsor or have any questions.
                   </MKTypography>
                 </Grid>
               </Grid>
