@@ -74,12 +74,12 @@ export default function GeneralInfo() {
             <Grid item xs={12}>
               <Divider variant="middle" sx={{ background: "black" }} />
             </Grid>
+            {/* 2 */}
             <Grid item xs={12} lg={3}>
               <MKTypography variant="h4" color="text" align="center">
                 Shooting Schedule
               </MKTypography>
             </Grid>
-            {/* 2 */}
             <Grid item xs={12} lg={9}>
               <MKTypography variant="body1" color="text">
                 <b>Pre-Match</b> Registration and Equipment Cehck:{" "}
@@ -104,9 +104,9 @@ export default function GeneralInfo() {
                   </a>
                 </b>
                 <br />
-                <b style={{ color: "red" }}>IMPORTANT:</b> Gun Check Handbook
-                will guide you to make sure your equipment comforms with IPSC
-                Rules.
+                <b style={{ color: "red" }}>IMPORTANT:</b> Equipment Check
+                Handbook will guide you to make sure your equipment comforms
+                with IPSC Rules.
               </MKTypography>
             </Grid>
             <Grid item xs={12}>
