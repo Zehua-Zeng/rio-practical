@@ -47,16 +47,16 @@ export default function Schedule() {
             boxShadow: ({ boxShadows: { xxl } }) => xxl,
           }}
         >
-          <Grid container spacing={1}>
+          <Grid container spacing={3}>
             <Grid item xs={12}>
               <MKTypography variant="h2" color="text" align="center" my={2}>
                 Schedule
               </MKTypography>
             </Grid>
-            <Grid item xs={5}>
+            <Grid item xs={12} lg={5}>
               <img src={IPSCRioLogo} style={{ maxWidth: "100%" }} />
             </Grid>
-            <Grid item xs={7}>
+            <Grid item xs={12} lg={7}>
               <MKTypography
                 variant="body1"
                 color="text"
@@ -77,9 +77,10 @@ export default function Schedule() {
                 my={2}
                 fontWeight="light"
               >
-                Pre-Match Registration and Gun Check: <b>Apr. 9, 2024</b>
+                Pre-Match Registration and Equipment Check: <b>Apr. 9, 2024</b>
                 <br />
-                Main Match Registration and Gun Check: <b>Apr. 11, 2024</b>
+                Main Match Registration and Equipment Check:{" "}
+                <b>Apr. 11, 2024</b>
                 <br />
               </MKTypography>
               <Divider variant="middle" sx={{ background: "black" }} />

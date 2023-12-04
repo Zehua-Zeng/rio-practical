@@ -212,9 +212,13 @@ export default function IPSCvsUSPSA() {
                       occurrence after the second time.
                     </b>
                     <br />
-                    <StarIcon /> There are other small rule differences between
-                    IPSC and USPSA, so it's crucial to review the latest version
-                    of{" "}
+                    <StarIcon /> We mention only five examples here; however,
+                    there are{" "}
+                    <b>
+                      <u>*many*</u>
+                    </b>{" "}
+                    small rule differences between IPSC and USPSA, so it's
+                    crucial to review the latest version of{" "}
                     <a href="https://www.ipsc.org/wp-content/uploads/2023/04/IPSC-Handgun-Competition-Rules-Apr-2023-Edition-Final-25-Apr-2023.pdf">
                       <b>IPSC rules</b>
                     </a>{" "}
