@@ -54,7 +54,7 @@ export default function IPSCvsUSPSA() {
             <Card
               sx={{
                 p: 2,
-                mt: -90,
+                mt: { xs: -80, lg: -90 },
                 mb: 4,
                 backgroundColor: ({
                   palette: { white },
