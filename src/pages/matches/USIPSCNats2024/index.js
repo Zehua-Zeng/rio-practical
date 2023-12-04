@@ -79,7 +79,7 @@ export default function USIPSCNats2024() {
             <MKButton
               color="white"
               size="large"
-              href="/matches/2024-us-ipsc-nats/general-info"
+              href="#/matches/2024-us-ipsc-nats/general-info"
             >
               MATCH INFORMATION
               <ArrowRightIcon sx={{ ml: 1 }} />
@@ -144,8 +144,14 @@ export default function USIPSCNats2024() {
                     pl={0}
                   >
                     The match will be held at Rio Salado Sportsman's Club in the
-                    city Mesa of Arizona State. Address: 3960 N Usery Pass Rd,
-                    Mesa, AZ 85207.
+                    city Mesa of Arizona State. Address:{" "}
+                    <a
+                      target="_blank"
+                      href="https://maps.app.goo.gl/edv7UoPm3CWu6rqXA"
+                    >
+                      3960 N Usery Pass Rd, Mesa, AZ 85207
+                    </a>
+                    .
                   </MKTypography>
                 </Grid>
               </Grid>
@@ -202,13 +208,18 @@ export default function USIPSCNats2024() {
                     pl={0}
                   >
                     For US shooters, please check{" "}
-                    <a href="https://practiscore.com/rio-salado-2024-ipsc-nationals/register">
+                    <a
+                      target="_blank"
+                      href="https://practiscore.com/rio-salado-2024-ipsc-nationals/register"
+                    >
                       PractiScore.com
                     </a>{" "}
                     for registration and squadding. For shooters from outside of
                     the US, please contact your Regional Director{" "}
-                    <a href="https://www.ipsc.org/regions">Here</a> and confirm
-                    your member status before registration.
+                    <a target="_blank" href="https://www.ipsc.org/regions">
+                      Here
+                    </a>{" "}
+                    and confirm your member status before registration.
                   </MKTypography>
                 </Grid>
               </Grid>
@@ -234,8 +245,9 @@ export default function USIPSCNats2024() {
                     pr={6}
                     pl={0}
                   >
-                    Before contacting Match Organizers, please check this page
-                    for more info.
+                    Before contacting Match Organizers, please check{" "}
+                    <a href="#/matches/2024-us-ipsc-nats/faqs">this page</a> for
+                    more info.
                   </MKTypography>
                 </Grid>
               </Grid>
@@ -261,8 +273,12 @@ export default function USIPSCNats2024() {
                     pr={6}
                     pl={0}
                   >
-                    Please check this page for some useful knowledge about the
-                    difference between IPSC and USPSA rules.
+                    Please check{" "}
+                    <a href="#/matches/2024-us-ipsc-nats/ipsc-vs-uspsa">
+                      this page
+                    </a>{" "}
+                    for some useful knowledge about the difference between IPSC
+                    and USPSA rules.
                   </MKTypography>
                 </Grid>
               </Grid>
