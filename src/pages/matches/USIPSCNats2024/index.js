@@ -207,7 +207,8 @@ export default function USIPSCNats2024() {
                     </a>{" "}
                     for registration and squadding. For shooters from outside of
                     the US, please contact your Regional Director{" "}
-                    <a href="https://www.ipsc.org/regions">Here</a>.
+                    <a href="https://www.ipsc.org/regions">Here</a> and confirm
+                    your member status before registration.
                   </MKTypography>
                 </Grid>
               </Grid>
@@ -347,8 +348,7 @@ export default function USIPSCNats2024() {
                 <b>
                   IPSC Level III Matches are large Regional IPSC competition and
                   competitors must be active IPSC members of their respective
-                  Regions, in good standing and approved by their Regional
-                  Directors.
+                  Regions, and in good standing.
                 </b>
               </MKTypography>
               <MKTypography

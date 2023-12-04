@@ -43,7 +43,18 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} by{" "}
+      All rights reserved. Copyright &copy; {date} - Developed by{" "}
+      <MKTypography
+        component="a"
+        href="https://zehua-zeng.github.io/"
+        target="_blank"
+        rel="noreferrer"
+        variant="button"
+        fontWeight="regular"
+      >
+        Zehua (Fiona)
+      </MKTypography>{" "}
+      for{" "}
       <MKTypography
         component="a"
         href="https://riopracticalpistol.com"

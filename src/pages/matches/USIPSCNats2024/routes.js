@@ -53,9 +53,9 @@ const usipscnats24_routes = [
     component: <Sponsors />,
   },
   {
-    name: "IPSC vs USPSA",
+    name: "IPSC vs. USPSA",
     icon: <DifferenceIcon />,
-    route: "matches/2024-us-ipsc-nats/ipsc-vs-uspsa",
+    route: "/matches/2024-us-ipsc-nats/ipsc-vs-uspsa",
     component: <IPSCvsUSPSA />,
   },
   {
