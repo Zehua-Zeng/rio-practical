@@ -42,15 +42,15 @@ export default {
     },
   ],
   copyright: (
-    <MKTypography variant="button" fontWeight="regular">
+    <MKTypography variant="body2" fontWeight="light">
       All rights reserved. Copyright &copy; {date} - Developed by{" "}
       <MKTypography
         component="a"
         href="https://zehua-zeng.github.io/"
         target="_blank"
         rel="noreferrer"
-        variant="button"
-        fontWeight="regular"
+        variant="body2"
+        fontWeight="light"
       >
         Zehua (Fiona)
       </MKTypography>{" "}
@@ -60,8 +60,8 @@ export default {
         href="https://riopracticalpistol.com"
         target="_blank"
         rel="noreferrer"
-        variant="button"
-        fontWeight="regular"
+        variant="body2"
+        fontWeight="light"
       >
         Rio Salado Practical Division
       </MKTypography>

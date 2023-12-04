@@ -34,55 +34,39 @@ export default function Sponsors() {
         }}
       />
       <Container sx={{ mt: { xs: 8, lg: 16 } }}>
-        <Grid
-          container
-          spacing={1}
-          direction="column"
-          alignItems="center"
-          justify="center"
+        <Card
+          sx={{
+            width: "100%",
+            minHeight: "75vh",
+            p: 2,
+            mt: { xs: -60, sm: -60, lg: -90 },
+            mb: 4,
+            backgroundColor: ({ palette: { white }, functions: { rgba } }) =>
+              rgba(white.main, 0.8),
+            backdropFilter: "saturate(200%) blur(30px)",
+            boxShadow: ({ boxShadows: { xxl } }) => xxl,
+          }}
         >
-          <Grid item xs={12} lg={10}>
-            <Card
-              sx={{
-                p: 2,
-                mt: { xs: -60, lg: -90 },
-                mb: 4,
-                backgroundColor: ({
-                  palette: { white },
-                  functions: { rgba },
-                }) => rgba(white.main, 0.8),
-                backdropFilter: "saturate(200%) blur(30px)",
-                boxShadow: ({ boxShadows: { xxl } }) => xxl,
-              }}
-            >
-              <Grid
-                container
-                spacing={1}
-                direction="column"
-                alignItems="center"
-                justify="center"
-              >
-                <Grid item xs={12}>
-                  <MKTypography variant="h2" color="text" align="center" my={2}>
-                    Sponsors
-                  </MKTypography>
-                  <MKTypography variant="body1" fontWeight="light" color="text">
-                    We are actively looking for sponsors now, including{" "}
-                    <b>
-                      Match Sponsor, Area Sponsor, Safety Area Sponsor, Stage
-                      Sponsor
-                    </b>
-                    . Please feel free to contact us at{" "}
-                    <a href="mailto:rioipscsponsorship@gmail.com">
-                      rioipscsponsorship@gmail.com
-                    </a>{" "}
-                    if you would like to be a sponsor or have any questions.
-                  </MKTypography>
-                </Grid>
-              </Grid>
-            </Card>
+          <Grid container spacing={1}>
+            <Grid item xs={12}>
+              <MKTypography variant="h2" color="text" align="center" my={2}>
+                Sponsors
+              </MKTypography>
+              <MKTypography variant="body1" fontWeight="light" color="text">
+                We are actively looking for sponsors now, including{" "}
+                <b>
+                  Match Sponsor, Area Sponsor, Safety Area Sponsor, Stage
+                  Sponsor
+                </b>
+                . Please feel free to contact us at{" "}
+                <a href="mailto:rioipscsponsorship@gmail.com">
+                  rioipscsponsorship@gmail.com
+                </a>{" "}
+                if you would like to be a sponsor or have any questions.
+              </MKTypography>
+            </Grid>
           </Grid>
-        </Grid>
+        </Card>
       </Container>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

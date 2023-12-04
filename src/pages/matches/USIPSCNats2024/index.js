@@ -523,7 +523,10 @@ export default function USIPSCNats2024() {
                     pl={0}
                   >
                     Please send an email to{" "}
-                    <a href="mailto:rioipsc@gmail.com">rioipsc@gmail.com</a>.
+                    <a href="mailto:rioipscsponsorship@gmail.com">
+                      rioipscsponsorship@gmail.com
+                    </a>
+                    .
                   </MKTypography>
                 </Grid>
               </Grid>
