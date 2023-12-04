@@ -60,6 +60,25 @@ export default function GeneralInfo() {
               </MKTypography>
               <Divider variant="middle" sx={{ background: "black" }} />
             </Grid>
+            {/* 0 */}
+            <Grid item xs={12} lg={3}>
+              <MKTypography variant="h4" color="text" align="center">
+                Match Registration
+              </MKTypography>
+            </Grid>
+            <Grid item xs={12} lg={9}>
+              <MKTypography variant="body1" color="text">
+                <a
+                  target="_blank"
+                  href="https://practiscore.com/rio-salado-2024-ipsc-nationals/register"
+                >
+                  Rio Salado 2024 IPSC Nationals on PractiScore.com
+                </a>
+              </MKTypography>
+            </Grid>
+            <Grid item xs={12}>
+              <Divider variant="middle" sx={{ background: "black" }} />
+            </Grid>
             {/* 1 */}
             <Grid item xs={12} lg={3}>
               <MKTypography variant="h4" color="text" align="center">
