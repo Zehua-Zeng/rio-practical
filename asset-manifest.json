@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.bdddeeea.js",
+    "main.js": "/static/js/main.3e0a8a62.js",
     "static/media/rio-bg.jpg": "/static/media/rio-bg.54922975065ea7ba183d.jpg",
     "static/media/IPSC-Rio-Match-Logo.png": "/static/media/IPSC-Rio-Match-Logo.dffc65e86bda3d9af21d.png",
     "static/media/IPSC-Squads-150x150.png": "/static/media/IPSC-Squads-150x150.f690bc28286dc05735a5.png",
     "static/media/logo.png": "/static/media/logo.f74c6abd9f977983e733.png",
     "index.html": "/index.html",
-    "main.bdddeeea.js.map": "/static/js/main.bdddeeea.js.map"
+    "main.3e0a8a62.js.map": "/static/js/main.3e0a8a62.js.map"
   },
   "entrypoints": [
-    "static/js/main.bdddeeea.js"
+    "static/js/main.3e0a8a62.js"
   ]
 }
