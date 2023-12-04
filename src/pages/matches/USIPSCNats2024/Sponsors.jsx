@@ -39,7 +39,7 @@ export default function Sponsors() {
             width: "100%",
             minHeight: "75vh",
             p: 2,
-            mt: { xs: -60, sm: -60, lg: -90 },
+            mt: { xs: -60, lg: -90 },
             mb: 4,
             backgroundColor: ({ palette: { white }, functions: { rgba } }) =>
               rgba(white.main, 0.8),

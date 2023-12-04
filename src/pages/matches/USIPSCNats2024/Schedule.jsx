@@ -41,7 +41,7 @@ export default function Schedule() {
             width: "100%",
             minHeight: "75vh",
             p: 2,
-            mt: { xs: -60, sm: -60, lg: -90 },
+            mt: { xs: -60, lg: -90 },
             mb: 4,
             backdropFilter: "saturate(200%) blur(30px)",
             boxShadow: ({ boxShadows: { xxl } }) => xxl,

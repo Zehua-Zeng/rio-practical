@@ -45,7 +45,7 @@ export default function FAQs() {
             width: "100%",
             minHeight: "75vh",
             p: 2,
-            mt: { xs: -60, sm: -60, lg: -90 },
+            mt: { xs: -60, lg: -90 },
             mb: 4,
             backgroundColor: ({ palette: { white }, functions: { rgba } }) =>
               rgba(white.main, 0.8),
@@ -260,7 +260,7 @@ export default function FAQs() {
                   id="travel1-header"
                 >
                   <MKTypography variant="body2" color="text" fontWeight="bold">
-                    At which airport(s) should I arrive in your country?
+                    At which airport(s) should I arrive in your area?
                   </MKTypography>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -301,23 +301,6 @@ export default function FAQs() {
                   id="travel3-header"
                 >
                   <MKTypography variant="body2" color="text" fontWeight="bold">
-                    Taxis
-                  </MKTypography>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <MKTypography variant="body2" color="text" fontWeight="light">
-                    Use official airport taxis.
-                  </MKTypography>
-                </AccordionDetails>
-              </Accordion>
-              {/* travel 4 */}
-              <Accordion>
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="travel4-content"
-                  id="travel4-header"
-                >
-                  <MKTypography variant="body2" color="text" fontWeight="bold">
                     What is the Match Hotel?
                   </MKTypography>
                 </AccordionSummary>
@@ -328,12 +311,12 @@ export default function FAQs() {
                   </MKTypography>
                 </AccordionDetails>
               </Accordion>
-              {/* travel 5 */}
+              {/* travel 4 */}
               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
-                  aria-controls="travel5-content"
-                  id="travel5-header"
+                  aria-controls="travel4-content"
+                  id="travel4-header"
                 >
                   <MKTypography variant="body2" color="text" fontWeight="bold">
                     What are the Range Officers Hotels?
