@@ -104,7 +104,8 @@ export default function USIPSCNats2024() {
                 pr={2}
               >
                 <b>
-                  "We are very happy and ready to welcome everybody in 2024."
+                  "We're excited to host the 2024 IPSC Nationals at Rio Salado
+                  Sportsman's Club and looking forward to seeing everyone here!"
                 </b>
               </MKTypography>
               <MKTypography
