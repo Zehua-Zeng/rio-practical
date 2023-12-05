@@ -87,7 +87,9 @@ export default function PermitInfo() {
                 <FiberManualRecordIcon /> All required items on the form must be
                 completed or your application will not be approved. <br />
                 <FiberManualRecordIcon /> ATF will process form 6NIA
-                applications in approximately 6 to 8 weeks. <br />
+                applications in{" "}
+                <u style={{ color: "red" }}>approximately 6 to 8 weeks</u>.
+                <br />
                 <FiberManualRecordIcon /> ATF recommends applicants provide a
                 fax number including country code on their applications when
                 possible, to eliminate the possibility of approved permits being

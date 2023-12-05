@@ -178,7 +178,7 @@ export default function IPSCvsUSPSA() {
                     <b>
                       Additionally, "PCC", which is one of the USPSA divisions,
                       is <u style={{ color: "red" }}>*not*</u> considered as a
-                      division in IPSC.
+                      division in IPSC, but rather a discipline.
                     </b>
                     <br />
                     <LabelImportantIcon />{" "}
@@ -202,7 +202,7 @@ export default function IPSCvsUSPSA() {
                       <u>Example 4:</u>
                     </b>{" "}
                     In USPSA, you can load only 10 rounds per magazine in the
-                    Production division, while IPSC allows you to load
+                    Production division, while IPSC allows you to load{" "}
                     <b>15 rounds</b>.
                     <br />
                     <LabelImportantIcon />{" "}

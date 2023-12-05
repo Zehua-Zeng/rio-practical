@@ -121,7 +121,7 @@ export default function Sponsors() {
                   <br />
                   <b>NROI Range Officers</b>
                   <br />
-                  PENGING
+                  PENDING
                   <br />
                 </MKTypography>
               </Grid>

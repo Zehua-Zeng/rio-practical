@@ -254,7 +254,7 @@ export default function FAQs() {
             </Grid>
             <Grid item xs={12} lg={6}>
               <MKTypography variant="h4" color="text" align="center" my={2}>
-                Airport / Taxi / Hotel
+                Airport / Hotel
               </MKTypography>
               {/* travel 1 */}
               <Accordion>

@@ -310,7 +310,9 @@ export default function USIPSCNats2024() {
                     pl={0}
                   >
                     Arizona is here to welcome all visitors with many
-                    attractions, great food and wonderful people!
+                    attractions, great food and wonderful people! Please check{" "}
+                    <a href="#/matches/2024-us-ipsc-nats/tourism">this page</a>{" "}
+                    for more information about tourism.
                   </MKTypography>
                 </Grid>
               </Grid>
@@ -368,8 +370,8 @@ export default function USIPSCNats2024() {
               >
                 <b>
                   IPSC Level III Matches are large Regional IPSC competition and
-                  competitors must be active IPSC members of their respective
-                  Regions, and in good standing.
+                  competitors must be active IPSC members in good standing with
+                  their respective Regions.
                 </b>
               </MKTypography>
               <MKTypography

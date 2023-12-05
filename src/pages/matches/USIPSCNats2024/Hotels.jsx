@@ -137,17 +137,10 @@ export default function Hotels() {
                 <b>2024 US IPSC Handgun Nationals - Official Match Hotel:</b> La
                 Quinta Inn & Suites by Wyndham Mesa Superstition Springs
               </MKTypography>
-              <MKTypography
-                variant="h5"
-                color="text"
-                align="center"
-                fontWeight="light"
-              >
-                <span style={{ color: "red" }}>
-                  Promo Codes for Hotel Bookings coming soon. Stay tuned!
-                </span>
-              </MKTypography>
               <Divider variant="middle" sx={{ background: "black" }} />
+              <MKTypography variant="h4" color="text" align="center" my={2}>
+                La Quinta Inn & Suites
+              </MKTypography>
             </Grid>
             <Grid item xs={12} lg={6}>
               <Box
@@ -233,9 +226,22 @@ export default function Hotels() {
             </Grid>
             <Grid item xs={12} lg={6}>
               <MKTypography variant="body1" color="text" fontWeight="light">
-                <b>Distance:</b> 10 miles / 15 mins driving <br />
+                <b>Distance from Range:</b> 10 miles / 15 mins driving <br />
                 <b>Address:</b> 6530 E Superstition Springs Blvd, Mesa, AZ 85206
                 USA
+                <br />
+                <b style={{ color: "red" }}>Booking Link:</b>{" "}
+                <a
+                  href="https://www.wyndhamhotels.com/hotels/52777?checkInDate=04/11/2024&checkOutDate=04/15/2024&groupCode=CGUSIP"
+                  target="_blank"
+                >
+                  https://www.wyndhamhotels.com/hotels/52777?checkInDate=04/11/2024&checkOutDate=04/15/2024&groupCode=CGUSIP
+                </a>{" "}
+                <br />
+                <b style={{ color: "red" }}>
+                  Group Code (for match rate):
+                </b>{" "}
+                <u style={{ color: "red" }}>CGUSIP</u>
                 <br />
                 <b>Accommodation Types:</b> (a) 2 Double Beds; (b) 1 King Bed;
                 <br />
@@ -249,14 +255,6 @@ export default function Hotels() {
                 <MobileFriendlyIcon /> Mobile Check-in,
                 <br />
                 <WifiIcon /> Free WiFi, <FreeBreakfastIcon /> Free Breakfast
-                <br />
-                <b>Hotel Website:</b>{" "}
-                <a
-                  target="_blank"
-                  href="https://www.wyndhamhotels.com/laquinta/mesa-arizona/la-quinta-mesa-superstition-springs/overview"
-                >
-                  https://www.wyndhamhotels.com/laquinta/mesa-arizona/la-quinta-mesa-superstition-springs/overview
-                </a>
               </MKTypography>
             </Grid>
           </Grid>
