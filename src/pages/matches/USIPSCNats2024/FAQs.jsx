@@ -323,14 +323,14 @@ export default function FAQs() {
                   id="travel4-header"
                 >
                   <MKTypography variant="body2" color="text" fontWeight="bold">
-                    What are the Range Officers Hotels?
+                    What is the Range Officers Hotel?
                   </MKTypography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <MKTypography variant="body2" color="text" fontWeight="light">
                     La Quinta Inn & Suites by Wyndham Mesa Superstition Springs.
                     Click <a href="#/matches/2024-us-ipsc-nats/hotels">here</a>{" "}
-                    for the complete information about Range Officers Hotels.
+                    for the complete information about the Range Officers Hotel.
                   </MKTypography>
                 </AccordionDetails>
               </Accordion>

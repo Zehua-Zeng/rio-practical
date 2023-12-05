@@ -213,7 +213,7 @@ export default function IPSCvsUSPSA() {
                     ready", you can take a sight picture and dry fire. However,
                     in IPSC,{" "}
                     <b>neither a sight picture nor dry firing is allowed</b>{" "}
-                    after the RO gives the command "Load and Make Ready."
+                    after the RO gives the command "Load and Make Ready".
                     Failure to comply with this rule results in a warning for
                     the first offense, recorded on the equipment check sheet.{" "}
                     <b>
