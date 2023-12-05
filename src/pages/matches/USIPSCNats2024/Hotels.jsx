@@ -1,6 +1,7 @@
 import Card from "@mui/material/Card";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
+import Divider from "@mui/material/Divider";
 
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
@@ -9,9 +10,80 @@ import MKBox from "components/MKBox";
 
 import routes from "pages/matches/USIPSCNats2024/routes";
 import footerRoutes from "pages/matches/USIPSCNats2024/footer.routes";
-import bgImage from "assets/images/rio-bg.jpg";
+import bgImage from "assets/images/la-quinta-bg.png";
+
+import SmokeFreeIcon from "@mui/icons-material/SmokeFree";
+import LocalLaundryServiceIcon from "@mui/icons-material/LocalLaundryService";
+import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
+import MobileFriendlyIcon from "@mui/icons-material/MobileFriendly";
+import WifiIcon from "@mui/icons-material/Wifi";
+import FreeBreakfastIcon from "@mui/icons-material/FreeBreakfast";
+
+import * as React from "react";
+import { useTheme } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import MobileStepper from "@mui/material/MobileStepper";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
+import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
+import SwipeableViews from "react-swipeable-views-react-18-fix";
+import { autoPlay } from "react-swipeable-views-utils-react-18-fix";
+
+import laQuintaLobby from "assets/images/la-quinta-lobby.png";
+import laQuintaRoom1 from "assets/images/la-quinta-room-1.png";
+import laQuintaRoom2 from "assets/images/la-quinta-room-2.png";
+import laQuintaPool from "assets/images/la-quinta-pool.png";
+import laQuintaBreakfest from "assets/images/la-quinta-breakfest.png";
+import laQuintaFitness from "assets/images/la-quinta-fitness.png";
+
+const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+
+const images = [
+  {
+    label: "Lobby",
+    imgPath: laQuintaLobby,
+  },
+  {
+    label: "Free Breakfest",
+    imgPath: laQuintaBreakfest,
+  },
+  {
+    label: "Guest Room 1",
+    imgPath: laQuintaRoom1,
+  },
+  {
+    label: "Guest Room 2",
+    imgPath: laQuintaRoom2,
+  },
+  {
+    label: "Pool",
+    imgPath: laQuintaPool,
+  },
+  {
+    label: "Fitness Room",
+    imgPath: laQuintaFitness,
+  },
+];
 
 export default function Hotels() {
+  const theme = useTheme();
+  const [activeStep, setActiveStep] = React.useState(0);
+  const maxSteps = images.length;
+
+  const handleNext = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+  };
+
+  const handleBack = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep - 1);
+  };
+
+  const handleStepChange = (step) => {
+    setActiveStep(step);
+  };
+
   return (
     <>
       <DefaultNavbar brand="2024 US IPSC Nationals" routes={routes} sticky />
@@ -53,12 +125,135 @@ export default function Hotels() {
                 Hotels
               </MKTypography>
               <MKTypography
-                variant="body1"
-                fontWeight="light"
+                variant="h4"
                 color="text"
                 align="center"
+                my={2}
+                fontWeight="light"
               >
-                Coming Soon. Stay Tuned!
+                <b>2024 US IPSC Nationals - Official Match Hotel:</b> La Quinta
+                Inn & Suites by Wyndham Mesa Superstition Springs
+              </MKTypography>
+              <MKTypography
+                variant="h5"
+                color="text"
+                align="center"
+                fontWeight="light"
+              >
+                <span style={{ color: "red" }}>
+                  Promo Codes for Hotel Bookings coming soon. Stay tuned!
+                </span>
+              </MKTypography>
+              <Divider variant="middle" sx={{ background: "black" }} />
+            </Grid>
+            <Grid item xs={12} lg={6}>
+              <Box
+                sx={{
+                  maxWidth: "80%",
+                  flexGrow: 1,
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              >
+                <Paper
+                  square
+                  elevation={0}
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    height: 50,
+                    pl: 2,
+                    bgcolor: "background.default",
+                  }}
+                >
+                  <MKTypography variant="body1" color="text" fontWeight="light">
+                    {images[activeStep].label}
+                  </MKTypography>
+                </Paper>
+                <AutoPlaySwipeableViews
+                  axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+                  index={activeStep}
+                  onChangeIndex={handleStepChange}
+                  enableMouseEvents
+                >
+                  {images.map((step, index) => (
+                    <div key={step.label}>
+                      {Math.abs(activeStep - index) <= 2 ? (
+                        <Box
+                          component="img"
+                          sx={{
+                            display: "block",
+                            overflow: "hidden",
+                            width: "100%",
+                          }}
+                          src={step.imgPath}
+                          alt={step.label}
+                        />
+                      ) : null}
+                    </div>
+                  ))}
+                </AutoPlaySwipeableViews>
+                <MobileStepper
+                  steps={maxSteps}
+                  position="static"
+                  activeStep={activeStep}
+                  nextButton={
+                    <Button
+                      size="small"
+                      onClick={handleNext}
+                      disabled={activeStep === maxSteps - 1}
+                    >
+                      Next
+                      {theme.direction === "rtl" ? (
+                        <KeyboardArrowLeft />
+                      ) : (
+                        <KeyboardArrowRight />
+                      )}
+                    </Button>
+                  }
+                  backButton={
+                    <Button
+                      size="small"
+                      onClick={handleBack}
+                      disabled={activeStep === 0}
+                    >
+                      {theme.direction === "rtl" ? (
+                        <KeyboardArrowRight />
+                      ) : (
+                        <KeyboardArrowLeft />
+                      )}
+                      Back
+                    </Button>
+                  }
+                />
+              </Box>
+            </Grid>
+            <Grid item xs={12} lg={6}>
+              <MKTypography variant="body1" color="text" fontWeight="light">
+                <b>Distance:</b> 10 miles / 15 mins driving <br />
+                <b>Address:</b> 6530 E Superstition Springs Blvd, Mesa, AZ 85206
+                USA
+                <br />
+                <b>Accommodation Types:</b> (a) 2 Double Beds; (b) 1 King Bed;
+                <br />
+                (c) 2 Double Beds, Mobility/Hearing Accessible Room; <br /> (d)
+                1 King Bed, Mobility/Hearing Accessible Room;
+                <br /> (e) 1 King Bed One-Bedroom Suite, Pool View <br />
+                <b>Featured Amenities:</b> <br />
+                <SmokeFreeIcon /> 100% Smoke-Free Hotel,{" "}
+                <LocalLaundryServiceIcon /> On-Site Guest Laundry,
+                <br /> <FitnessCenterIcon /> Fitness Center,{" "}
+                <MobileFriendlyIcon /> Mobile Check-in,
+                <br />
+                <WifiIcon /> Free WiFi, <FreeBreakfastIcon /> Free Breakfast
+                <br />
+                <b>Hotel Website:</b>{" "}
+                <a
+                  target="_blank"
+                  href="https://www.wyndhamhotels.com/laquinta/mesa-arizona/la-quinta-mesa-superstition-springs/overview"
+                >
+                  https://www.wyndhamhotels.com/laquinta/mesa-arizona/la-quinta-mesa-superstition-springs/overview
+                </a>
               </MKTypography>
             </Grid>
           </Grid>

@@ -187,7 +187,7 @@ export default function GeneralInfo() {
                 3960 N Usery Pass Rd, Mesa, AZ 85207 USA
               </MKTypography>
               <MKTypography variant="body1" color="text" mt={1}>
-                <b>Navigation</b>
+                <b>Direction</b>
               </MKTypography>
               <MKTypography variant="body2" color="text">
                 <a

@@ -60,7 +60,7 @@ export default function FAQs() {
               </MKTypography>
             </Grid>
             <Grid item xs={12} lg={6}>
-              <MKTypography variant="h3" color="text" align="center" my={2}>
+              <MKTypography variant="h4" color="text" align="center" my={2}>
                 Slots
               </MKTypography>
               {/* slot 1 */}
@@ -249,7 +249,7 @@ export default function FAQs() {
               </Accordion>
             </Grid>
             <Grid item xs={12} lg={6}>
-              <MKTypography variant="h3" color="text" align="center" my={2}>
+              <MKTypography variant="h4" color="text" align="center" my={2}>
                 Airport / Taxi / Hotel
               </MKTypography>
               {/* travel 1 */}
@@ -328,7 +328,7 @@ export default function FAQs() {
                   </MKTypography>
                 </AccordionDetails>
               </Accordion>
-              <MKTypography variant="h3" color="text" align="center" my={2}>
+              <MKTypography variant="h4" color="text" align="center" my={2}>
                 Firearms and Ammunition
               </MKTypography>
               {/* ammo 1 */}
