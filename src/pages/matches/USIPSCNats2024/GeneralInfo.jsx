@@ -101,13 +101,13 @@ export default function GeneralInfo() {
             </Grid>
             <Grid item xs={12} lg={9}>
               <MKTypography variant="body1" color="text">
-                <b>Pre-Match</b> Registration and Equipment Cehck:{" "}
+                <b>Pre-Match</b> Registration and Equipment Check:{" "}
                 <b>Apr. 9, 2024</b>
                 <br />
                 Time: TBD
                 <br />
                 <br />
-                <b>Main-Match</b> Registration and Equipment Cehck:{" "}
+                <b>Main-Match</b> Registration and Equipment Check:{" "}
                 <b>Apr. 11, 2024</b>
                 <br />
                 Time: TBD

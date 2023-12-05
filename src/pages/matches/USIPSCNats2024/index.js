@@ -179,9 +179,9 @@ export default function USIPSCNats2024() {
                   >
                     Dec 3, 2023: Match Registration <br />
                     Dec 10, 2023: Squadding <br />
-                    Apr 10, 2023: Pre-Match Day 1 <br />
-                    Apr 12, 2023: Main-Match Day 1 <br />
-                    Apr 14, 2023: Closing Ceremony
+                    Apr 10, 2024: Pre-Match Day 1 <br />
+                    Apr 12, 2024: Main-Match Day 1 <br />
+                    Apr 14, 2024: Closing Ceremony
                   </MKTypography>
                 </Grid>
               </Grid>

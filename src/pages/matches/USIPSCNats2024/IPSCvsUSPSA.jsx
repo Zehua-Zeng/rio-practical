@@ -166,11 +166,16 @@ export default function IPSCvsUSPSA() {
                     <b>
                       <u>Example 1:</u>
                     </b>{" "}
-                    In USPSA, there are divisions called{" "}
-                    <b>"Limited", "Single Stack", and "Carry Optics"</b>, while
-                    IPSC calls them{" "}
-                    <b>"Standard", "Classic" and "Production Optics"</b>{" "}
-                    accordingly.
+                    In USPSA, divisions are named{" "}
+                    <b>"Limited", "Single Stack", and "Carry Optics"</b>,
+                    whereas IPSC designates them as{" "}
+                    <b>"Standard", "Classic", and "Production Optics"</b>,
+                    respectively.{" "}
+                    <b>
+                      Additionally, "PCC", which is one of the USPSA divisions,
+                      is <u style={{ color: "red" }}>*not*</u> considered as a
+                      division in IPSC.
+                    </b>
                     <br />
                     <LabelImportantIcon />{" "}
                     <b>
