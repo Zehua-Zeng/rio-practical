@@ -6,6 +6,7 @@ import DifferenceIcon from "@mui/icons-material/Difference";
 
 import GeneralInfo from "pages/matches/USIPSCNats2024/GeneralInfo";
 import Schedule from "pages/matches/USIPSCNats2024/Schedule";
+import PermitInfo from "pages/matches/USIPSCNats2024/PermitInfo";
 import Hotels from "pages/matches/USIPSCNats2024/Hotels";
 import Tourism from "pages/matches/USIPSCNats2024/Tourism";
 import Officials from "pages/matches/USIPSCNats2024/Officials";
@@ -27,6 +28,11 @@ const usipscnats24_routes = [
         name: "Schedule",
         route: "/matches/2024-us-ipsc-nats/schedule",
         component: <Schedule />,
+      },
+      {
+        name: "Permit Information",
+        route: "/matches/2024-us-ipsc-nats/permit-info",
+        component: <PermitInfo />,
       },
       {
         name: "Hotels",
