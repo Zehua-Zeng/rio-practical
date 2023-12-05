@@ -57,7 +57,12 @@ export default function GeneralInfo() {
               <MKTypography variant="h2" color="text" align="center" my={2}>
                 General Information
               </MKTypography>
-              <MKTypography variant="body1" color="text" align="center">
+              <MKTypography
+                variant="body1"
+                color="text"
+                align="center"
+                fontWeight="light"
+              >
                 Please read all the information below{" "}
                 <u style={{ color: "red" }}>BEFORE</u> contacting Match
                 Director.
@@ -71,7 +76,7 @@ export default function GeneralInfo() {
               </MKTypography>
             </Grid>
             <Grid item xs={12} lg={9}>
-              <MKTypography variant="body1" color="text">
+              <MKTypography variant="body1" color="text" fontWeight="light">
                 <a
                   target="_blank"
                   href="https://practiscore.com/rio-salado-2024-ipsc-nationals/register"
@@ -86,25 +91,11 @@ export default function GeneralInfo() {
             {/* 1 */}
             <Grid item xs={12} lg={3}>
               <MKTypography variant="h4" color="text" align="center">
-                Match Results
-              </MKTypography>
-            </Grid>
-            <Grid item xs={12} lg={9}>
-              <MKTypography variant="body1" color="text">
-                PENDING
-              </MKTypography>
-            </Grid>
-            <Grid item xs={12}>
-              <Divider variant="middle" sx={{ background: "black" }} />
-            </Grid>
-            {/* 2 */}
-            <Grid item xs={12} lg={3}>
-              <MKTypography variant="h4" color="text" align="center">
                 Shooting Schedule
               </MKTypography>
             </Grid>
             <Grid item xs={12} lg={9}>
-              <MKTypography variant="body1" color="text">
+              <MKTypography variant="body1" color="text" fontWeight="light">
                 <b>Pre-Match</b> Registration and Equipment Check:{" "}
                 <b>Apr. 9, 2024</b>
                 <br />
@@ -135,6 +126,23 @@ export default function GeneralInfo() {
             <Grid item xs={12}>
               <Divider variant="middle" sx={{ background: "black" }} />
             </Grid>
+            {/* 2 */}
+            <Grid item xs={12} lg={3}>
+              <MKTypography variant="h4" color="text" align="center">
+                Match Plans
+              </MKTypography>
+            </Grid>
+            <Grid item xs={12} lg={9}>
+              <MKTypography variant="body1" color="text">
+                <b>Stages & Round Counts</b>
+              </MKTypography>
+              <MKTypography variant="body2" color="text">
+                18 stages + Chrono; Rounds: ~ 350
+              </MKTypography>
+            </Grid>
+            <Grid item xs={12}>
+              <Divider variant="middle" sx={{ background: "black" }} />
+            </Grid>
             {/* 3 */}
             <Grid item xs={12} lg={3}>
               <MKTypography variant="h4" color="text" align="center">
@@ -142,7 +150,7 @@ export default function GeneralInfo() {
               </MKTypography>
             </Grid>
             <Grid item xs={12} lg={9}>
-              <MKTypography variant="body1" color="text">
+              <MKTypography variant="body1" color="text" fontWeight="light">
                 PENDING
               </MKTypography>
             </Grid>
@@ -156,7 +164,7 @@ export default function GeneralInfo() {
               </MKTypography>
             </Grid>
             <Grid item xs={12} lg={9}>
-              <MKTypography variant="body1" color="text">
+              <MKTypography variant="body1" color="text" fontWeight="light">
                 PENDING
               </MKTypography>
             </Grid>
@@ -164,6 +172,20 @@ export default function GeneralInfo() {
               <Divider variant="middle" sx={{ background: "black" }} />
             </Grid>
             {/* 5 */}
+            <Grid item xs={12} lg={3}>
+              <MKTypography variant="h4" color="text" align="center">
+                Match Results
+              </MKTypography>
+            </Grid>
+            <Grid item xs={12} lg={9}>
+              <MKTypography variant="body1" color="text" fontWeight="light">
+                PENDING
+              </MKTypography>
+            </Grid>
+            <Grid item xs={12}>
+              <Divider variant="middle" sx={{ background: "black" }} />
+            </Grid>
+            {/* 6 */}
             <Grid item xs={12} lg={3}>
               <MKTypography variant="h4" color="text" align="center">
                 The Range

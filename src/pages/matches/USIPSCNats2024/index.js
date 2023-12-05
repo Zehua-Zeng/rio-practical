@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
@@ -20,7 +22,45 @@ import IPSCSchedule from "assets/images/IPSC-Schedule-150x150.png";
 import IPSCFAQs from "assets/images/IPSC-FAQs-150x150.png";
 import IPSCTourism from "assets/images/IPSC-Tourism-150x150.png";
 
+function calculateTimeLeft() {
+  const difference = +new Date(`2024-04-12`) - +new Date();
+  let timeLeft = {};
+
+  if (difference > 0) {
+    timeLeft = {
+      Days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      Hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      Minutes: Math.floor((difference / 1000 / 60) % 60),
+      Seconds: Math.floor((difference / 1000) % 60),
+    };
+  }
+
+  return timeLeft;
+}
+
 export default function USIPSCNats2024() {
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  useEffect(() => {
+    const id = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => {
+      clearTimeout(id);
+    };
+  });
+  const timerComponents = Object.keys(timeLeft).map((interval) => {
+    if (!timeLeft[interval]) {
+      return;
+    }
+
+    return (
+      <span>
+        {timeLeft[interval]} {interval}{" "}
+      </span>
+    );
+  });
+
   return (
     <>
       <DefaultNavbar
@@ -28,7 +68,7 @@ export default function USIPSCNats2024() {
         routes={routes}
         sticky
       />
-      {/* 1 */}
+      {/* image */}
       <MKBox
         minHeight="75vh"
         width="100%"
@@ -88,10 +128,56 @@ export default function USIPSCNats2024() {
               MATCH INFORMATION
               <ArrowRightIcon sx={{ ml: 1 }} />
             </MKButton>
+            <br />
+            <MKTypography
+              variant="h2"
+              color="white"
+              sx={({ breakpoints, typography: { size } }) => ({
+                [breakpoints.down("md")]: {
+                  fontSize: size["3xl"],
+                },
+              })}
+              my={2}
+            >
+              Main-Match Count Down
+            </MKTypography>
+            <MKTypography variant="h2" color="white" fontWeight="light">
+              {timerComponents.length ? (
+                timerComponents
+              ) : (
+                <span>Time's up!</span>
+              )}
+            </MKTypography>
           </Grid>
         </Container>
       </MKBox>
-      {/* 2 */}
+      {/* match sponsor */}
+      <Container sx={{ mt: { xs: 8, lg: 16 } }}>
+        <Grid
+          container
+          xs={12}
+          justifyContent="center"
+          alignItems="center"
+          flexDirection="column"
+          sx={{ mx: "auto", textAlign: "center" }}
+        >
+          <MKTypography
+            variant="h1"
+            color="black"
+            sx={({ breakpoints, typography: { size } }) => ({
+              [breakpoints.down("md")]: {
+                fontSize: size["3xl"],
+              },
+            })}
+          >
+            Match Sponor
+          </MKTypography>
+          <MKTypography variant="h3" color="grey">
+            PENDING
+          </MKTypography>
+        </Grid>
+      </Container>
+      {/* info */}
       <Container sx={{ mt: { xs: 8, lg: 16 } }}>
         <Grid container spacing={3}>
           <Grid item xs={12} lg={4}>
@@ -320,40 +406,7 @@ export default function USIPSCNats2024() {
           </Grid>
         </Grid>
       </Container>
-      {/* 3 */}
-      <Container sx={{ mt: { xs: 8, lg: 16 } }}>
-        <Grid
-          container
-          xs={12}
-          justifyContent="center"
-          alignItems="center"
-          flexDirection="column"
-          sx={{ mx: "auto", textAlign: "center" }}
-        >
-          <MKTypography
-            variant="h1"
-            color="black"
-            sx={({ breakpoints, typography: { size } }) => ({
-              [breakpoints.down("md")]: {
-                fontSize: size["3xl"],
-              },
-            })}
-          >
-            Match Sponor
-          </MKTypography>
-          <MKTypography
-            variant="h3"
-            color="grey"
-            sx={({ breakpoints, typography: { size } }) => ({
-              [breakpoints.down("md")]: {
-                fontSize: size["3xl"],
-              },
-            })}
-          >
-            PENDING
-          </MKTypography>
-        </Grid>
-      </Container>
+      {/* faq */}
       <Container sx={{ mt: { xs: 8, lg: 16 } }}>
         <Grid container spacing={3}>
           <Grid item xs={12} lg={4}>
