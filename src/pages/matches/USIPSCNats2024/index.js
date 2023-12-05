@@ -23,7 +23,11 @@ import IPSCTourism from "assets/images/IPSC-Tourism-150x150.png";
 export default function USIPSCNats2024() {
   return (
     <>
-      <DefaultNavbar brand="2024 US IPSC Nationals" routes={routes} sticky />
+      <DefaultNavbar
+        brand="2024 US IPSC Handgun Nationals"
+        routes={routes}
+        sticky
+      />
       {/* 1 */}
       <MKBox
         minHeight="75vh"
@@ -63,7 +67,7 @@ export default function USIPSCNats2024() {
                 },
               })}
             >
-              2024 US IPSC Nationals <br />
+              2024 US IPSC Handgun Nationals <br />
               Mesa, Arizona
             </MKTypography>
             <MKTypography
@@ -94,7 +98,7 @@ export default function USIPSCNats2024() {
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <img src={IPSCRioLogo} style={{ maxWidth: "100%" }} />
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                2024 US IPSC Nationals is around the corner!
+                2024 US IPSC Handgun Nationals is around the corner!
               </MKTypography>
               <MKTypography
                 variant="body1"
@@ -104,8 +108,9 @@ export default function USIPSCNats2024() {
                 pr={2}
               >
                 <b>
-                  "We're excited to host the 2024 IPSC Nationals at Rio Salado
-                  Sportsman's Club and looking forward to seeing everyone here!"
+                  "We're excited to host the 2024 IPSC Handgun Nationals at Rio
+                  Salado Sportsman's Club and looking forward to seeing everyone
+                  here!"
                 </b>
               </MKTypography>
               <MKTypography

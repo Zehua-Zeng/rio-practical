@@ -20,7 +20,11 @@ import bgImage from "assets/images/rio-bg.jpg";
 export default function FAQs() {
   return (
     <>
-      <DefaultNavbar brand="2024 US IPSC Nationals" routes={routes} sticky />
+      <DefaultNavbar
+        brand="2024 US IPSC Handgun Nationals"
+        routes={routes}
+        sticky
+      />
       <MKBox
         minHeight="75vh"
         width="100%"
@@ -324,7 +328,9 @@ export default function FAQs() {
                 </AccordionSummary>
                 <AccordionDetails>
                   <MKTypography variant="body2" color="text" fontWeight="light">
-                    Information Coming Soon.
+                    La Quinta Inn & Suites by Wyndham Mesa Superstition Springs.
+                    Click <a href="#/matches/2024-us-ipsc-nats/hotels">here</a>{" "}
+                    for the complete information about Range Officers Hotels.
                   </MKTypography>
                 </AccordionDetails>
               </Accordion>

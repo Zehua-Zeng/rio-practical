@@ -14,7 +14,11 @@ import bgImage from "assets/images/rio-bg.jpg";
 export default function Sponsors() {
   return (
     <>
-      <DefaultNavbar brand="2024 US IPSC Nationals" routes={routes} sticky />
+      <DefaultNavbar
+        brand="2024 US IPSC Handgun Nationals"
+        routes={routes}
+        sticky
+      />
       <MKBox
         minHeight="75vh"
         width="100%"

@@ -86,7 +86,11 @@ export default function Hotels() {
 
   return (
     <>
-      <DefaultNavbar brand="2024 US IPSC Nationals" routes={routes} sticky />
+      <DefaultNavbar
+        brand="2024 US IPSC Handgun Nationals"
+        routes={routes}
+        sticky
+      />
       <MKBox
         minHeight="75vh"
         width="100%"
@@ -131,8 +135,8 @@ export default function Hotels() {
                 my={2}
                 fontWeight="light"
               >
-                <b>2024 US IPSC Nationals - Official Match Hotel:</b> La Quinta
-                Inn & Suites by Wyndham Mesa Superstition Springs
+                <b>2024 US IPSC Handgun Nationals - Official Match Hotel:</b> La
+                Quinta Inn & Suites by Wyndham Mesa Superstition Springs
               </MKTypography>
               <MKTypography
                 variant="h5"

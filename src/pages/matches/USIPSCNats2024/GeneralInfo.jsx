@@ -17,7 +17,11 @@ import logoRio from "assets/images/logo.png";
 export default function GeneralInfo() {
   return (
     <>
-      <DefaultNavbar brand="2024 US IPSC Nationals" routes={routes} sticky />
+      <DefaultNavbar
+        brand="2024 US IPSC Handgun Nationals"
+        routes={routes}
+        sticky
+      />
       <MKBox
         minHeight="75vh"
         width="100%"
@@ -72,7 +76,7 @@ export default function GeneralInfo() {
                   target="_blank"
                   href="https://practiscore.com/rio-salado-2024-ipsc-nationals/register"
                 >
-                  Rio Salado 2024 IPSC Nationals on PractiScore.com
+                  Rio Salado 2024 IPSC Handgun Nationals on PractiScore.com
                 </a>
               </MKTypography>
             </Grid>
