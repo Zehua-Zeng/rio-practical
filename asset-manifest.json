@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.2c3ae9b3.js",
+    "main.js": "/static/js/main.43bb1d13.js",
     "static/media/rio-bg.jpg": "/static/media/rio-bg.54922975065ea7ba183d.jpg",
     "static/media/IPSC-Rio-Match-Logo.png": "/static/media/IPSC-Rio-Match-Logo.2120820d2b32a36b4c34.png",
     "static/media/rio-range-map.png": "/static/media/rio-range-map.910e4670c9a28654b4db.png",
+    "static/media/la-quinta-fitness.png": "/static/media/la-quinta-fitness.46ec5b4cf15493fc60d3.png",
+    "static/media/la-quinta-pool.png": "/static/media/la-quinta-pool.aef14243406f6c42f899.png",
+    "static/media/la-quinta-room-1.png": "/static/media/la-quinta-room-1.f8ed0c80bec2198a25b7.png",
+    "static/media/la-quinta-bg.png": "/static/media/la-quinta-bg.f84f407ab4f2e83f0676.png",
+    "static/media/la-quinta-room-2.png": "/static/media/la-quinta-room-2.f77f52260d07a4d421fd.png",
+    "static/media/la-quinta-breakfest.png": "/static/media/la-quinta-breakfest.f5291df5274afcc10ad8.png",
+    "static/media/la-quinta-lobby.png": "/static/media/la-quinta-lobby.8a38629240f0b5249f89.png",
     "static/media/IPSC-Squads-150x150.png": "/static/media/IPSC-Squads-150x150.f690bc28286dc05735a5.png",
     "static/media/logo.png": "/static/media/logo.f74c6abd9f977983e733.png",
     "index.html": "/index.html",
-    "main.2c3ae9b3.js.map": "/static/js/main.2c3ae9b3.js.map"
+    "main.43bb1d13.js.map": "/static/js/main.43bb1d13.js.map"
   },
   "entrypoints": [
-    "static/js/main.2c3ae9b3.js"
+    "static/js/main.43bb1d13.js"
   ]
 }
