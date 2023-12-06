@@ -130,7 +130,7 @@ export default function USIPSCNats2024() {
             </MKButton>
             <br />
             <MKTypography
-              variant="h2"
+              variant="h3"
               color="white"
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
@@ -141,11 +141,11 @@ export default function USIPSCNats2024() {
             >
               Main-Match Count Down
             </MKTypography>
-            <MKTypography variant="h2" color="white" fontWeight="light">
+            <MKTypography variant="h3" color="white" fontWeight="light">
               {timerComponents.length ? (
                 timerComponents
               ) : (
-                <span>Time's up!</span>
+                <span>Match has started!</span>
               )}
             </MKTypography>
           </Grid>
