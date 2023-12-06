@@ -70,7 +70,7 @@ export default function USIPSCNats2024() {
       />
       {/* image */}
       <MKBox
-        minHeight="75vh"
+        minHeight="90vh"
         width="100%"
         sx={{
           backgroundImage: ({
