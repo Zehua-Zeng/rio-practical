@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.eb1335bd.js",
+    "main.js": "/static/js/main.884ef929.js",
     "static/media/rio-bg.jpg": "/static/media/rio-bg.54922975065ea7ba183d.jpg",
     "static/media/IPSC-Rio-Match-Logo.png": "/static/media/IPSC-Rio-Match-Logo.2120820d2b32a36b4c34.png",
     "static/media/rio-range-map.png": "/static/media/rio-range-map.910e4670c9a28654b4db.png",
@@ -11,12 +11,19 @@
     "static/media/la-quinta-room-2.png": "/static/media/la-quinta-room-2.f77f52260d07a4d421fd.png",
     "static/media/la-quinta-breakfest.png": "/static/media/la-quinta-breakfest.f5291df5274afcc10ad8.png",
     "static/media/la-quinta-lobby.png": "/static/media/la-quinta-lobby.8a38629240f0b5249f89.png",
+    "static/media/south-africa.png": "/static/media/south-africa.0cddef3ea0d586c28014.png",
+    "static/media/philippines.png": "/static/media/philippines.3d45c6d020277bd88d09.png",
+    "static/media/jamaica.png": "/static/media/jamaica.1a33a05e46949e7fdbd4.png",
+    "static/media/us.png": "/static/media/us.d9d98811ef4bc9ce5acc.png",
     "static/media/IPSC-Squads-150x150.png": "/static/media/IPSC-Squads-150x150.f690bc28286dc05735a5.png",
     "static/media/logo.png": "/static/media/logo.f74c6abd9f977983e733.png",
+    "static/media/canada.png": "/static/media/canada.034fa882196cace8e4c3.png",
+    "static/media/australia.png": "/static/media/australia.74104d115e4895a42efc.png",
+    "static/media/gbr.png": "/static/media/gbr.d693bf8108ce37a57852.png",
     "index.html": "/index.html",
-    "main.eb1335bd.js.map": "/static/js/main.eb1335bd.js.map"
+    "main.884ef929.js.map": "/static/js/main.884ef929.js.map"
   },
   "entrypoints": [
-    "static/js/main.eb1335bd.js"
+    "static/js/main.884ef929.js"
   ]
 }
