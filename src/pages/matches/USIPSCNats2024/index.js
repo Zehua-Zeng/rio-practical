@@ -21,6 +21,17 @@ import IPSCSquads from "assets/images/IPSC-Squads-150x150.png";
 import IPSCSchedule from "assets/images/IPSC-Schedule-150x150.png";
 import IPSCFAQs from "assets/images/IPSC-FAQs-150x150.png";
 import IPSCTourism from "assets/images/IPSC-Tourism-150x150.png";
+import usFlag from "assets/images/us.png";
+import canadaFlag from "assets/images/canada.png";
+import philippinesFlag from "assets/images/philippines.png";
+import puertoricoFlag from "assets/images/puerto-rico.png";
+import gbrFlag from "assets/images/gbr.png";
+import jamaicaFlag from "assets/images/jamaica.png";
+import sloveniaFlag from "assets/images/slovenia.png";
+import australiaFlag from "assets/images/australia.png";
+import norwayFlag from "assets/images/norway.png";
+import costaricaFlag from "assets/images/costa-rica.png";
+import southafricaFlag from "assets/images/south-africa.png";
 
 function calculateTimeLeft() {
   const difference = +new Date(`2024-04-12`) - +new Date();
@@ -184,8 +195,55 @@ export default function USIPSCNats2024() {
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <img src={IPSCRioLogo} style={{ maxWidth: "100%" }} />
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                2024 US IPSC Handgun Nationals is around the corner!
+                500+ Competitors from 11 Countries!
               </MKTypography>
+              <img src={usFlag} width="25px" style={{ margin: "5px" }}></img>
+              <img
+                src={canadaFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img
+                src={philippinesFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img
+                src={puertoricoFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img src={gbrFlag} width="25px" style={{ margin: "5px" }}></img>
+              <img
+                src={jamaicaFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img
+                src={sloveniaFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img
+                src={australiaFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img
+                src={norwayFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img
+                src={costaricaFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img
+                src={southafricaFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
               <MKTypography
                 variant="body1"
                 fontWeight="regular"
