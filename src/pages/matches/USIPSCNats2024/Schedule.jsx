@@ -70,7 +70,7 @@ export default function Schedule() {
               >
                 Match Registration Opens: <b>Dec. 3, 2023</b>
                 <br />
-                Squadding Opens: <b>Dec. 9, 2023</b>
+                Squadding Opens: <b>Dec. 10, 2023</b>
                 <br />
               </MKTypography>
               <Divider variant="middle" sx={{ background: "black" }} />
