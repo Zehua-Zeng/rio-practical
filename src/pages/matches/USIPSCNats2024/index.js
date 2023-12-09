@@ -32,6 +32,8 @@ import australiaFlag from "assets/images/australia.png";
 import norwayFlag from "assets/images/norway.png";
 import costaricaFlag from "assets/images/costa-rica.png";
 import southafricaFlag from "assets/images/south-africa.png";
+import swedenFlag from "assets/images/sweden.png";
+import arubaFlag from "assets/images/aruba.png";
 
 function calculateTimeLeft() {
   const difference = +new Date(`2024-04-12`) - +new Date();
@@ -195,7 +197,7 @@ export default function USIPSCNats2024() {
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <img src={IPSCRioLogo} style={{ maxWidth: "100%" }} />
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                500+ Competitors from 11 Countries!
+                500+ Competitors from 13 Countries!
               </MKTypography>
               <img src={usFlag} width="25px" style={{ margin: "5px" }}></img>
               <img
@@ -244,6 +246,12 @@ export default function USIPSCNats2024() {
                 width="25px"
                 style={{ margin: "5px" }}
               ></img>
+              <img
+                src={swedenFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img src={arubaFlag} width="25px" style={{ margin: "5px" }}></img>
               <MKTypography
                 variant="body1"
                 fontWeight="regular"
