@@ -7,7 +7,7 @@ import USIPSCNats2024 from "pages/matches/USIPSCNats2024";
 import usipscnats24_routes from "pages/matches/USIPSCNats2024/routes";
 import ReactGA from "react-ga";
 
-ReactGA.initialize("G-R2CQQ1KDCY");
+ReactGA.initialize("G-EG0B598MM3");
 
 export default function App() {
   const location = useLocation();
