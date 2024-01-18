@@ -5,15 +5,22 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "assets/theme";
 import USIPSCNats2024 from "pages/matches/USIPSCNats2024";
 import usipscnats24_routes from "pages/matches/USIPSCNats2024/routes";
+import ReactGA from "react-ga";
+
+ReactGA.initialize("G-R2CQQ1KDCY");
 
 export default function App() {
-  const { pathname } = useLocation();
+  const location = useLocation();
 
   // Setting page scroll to 0 when changing the route
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
-  }, [pathname]);
+  }, [location.pathname]);
+
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
 
   const getRoutes = (allRoutes) =>
     allRoutes.map((route) => {
