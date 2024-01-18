@@ -185,29 +185,60 @@ export default function IPSCvsUSPSA() {
                     <b>
                       <u>Example 2:</u>
                     </b>{" "}
-                    In Open division, USPSA allows magazines with a maximum
-                    length of 171.25mm, while IPSC is <b>170mm FLAT</b>.
+                    In USPSA, you can put <b>magazine pouches</b> anywhere on
+                    the belt, while IPSC ONLY allows you to do so in the Open
+                    division. In other divisions, magazine pouches have to be{" "}
+                    <b>at/behind your hip bones</b>.
                     <br />
                     <LabelImportantIcon />{" "}
                     <b>
                       <u>Example 3:</u>
                     </b>{" "}
-                    In USPSA, you can put magazine pouches anywhere on the belt,
-                    while IPSC ONLY allows you to do so in the Open division. In
-                    other divisions, magazine pouches have to be{" "}
-                    <b>at/behind your hip bones</b>.
+                    In Open division, USPSA allows magazines with a maximum
+                    length of 171.25mm, while IPSC is <b>170mm FLAT</b>.
                     <br />
                     <LabelImportantIcon />{" "}
                     <b>
                       <u>Example 4:</u>
                     </b>{" "}
-                    In USPSA, you can load only 10 rounds per magazine in the
-                    Production division, while IPSC allows you to load{" "}
-                    <b>15 rounds</b>.
+                    IPSC Standard guns must fit in the IPSC BOX. However, many
+                    USPSA Limited guns with 141.25mm magazines won't fit, and
+                    most 5” barrel Limited guns need to use 126mm magazines to
+                    meet the box requirements.
                     <br />
                     <LabelImportantIcon />{" "}
                     <b>
                       <u>Example 5:</u>
+                    </b>{" "}
+                    In USPSA, you can load your 140mm magazines to full capacity
+                    in the <b>Carry Optics</b> division. In IPSC, the maximum
+                    magazine capacity allowed for <b>Production Optics</b> is 15
+                    rounds. 140mm magazines are legal, but they can only be
+                    loaded to 15 rounds.
+                    <br />
+                    <LabelImportantIcon />{" "}
+                    <b>
+                      <u>Example 6:</u>
+                    </b>{" "}
+                    In <b>Production</b> and <b>Production Optics</b> divisions,
+                    firearm modifications are restricted. Only minor detailing,
+                    such as the removal of burrs and/or adjustments unavoidably
+                    required in order to fit replacement OFM parts or
+                    components, changing the original color and/or finish,
+                    and/or adding stripes or other embellishments, is allowed.
+                    <br />
+                    <LabelImportantIcon />{" "}
+                    <b>
+                      <u>Example 7:</u>
+                    </b>{" "}
+                    In <b>Production</b> and <b>Production Optics</b> divisions,
+                    the minimum trigger pull is 2.27kg (5lbs.) for first shot{" "}
+                    <u style={{ color: "red" }}>*OR*</u> 1.36kg (3lbs.) for
+                    every shot.
+                    <br />
+                    <LabelImportantIcon />{" "}
+                    <b>
+                      <u>Example 8:</u>
                     </b>{" "}
                     In USPSA, once the Range Officer gives the command "Make
                     ready", you can take a sight picture and dry fire. However,
@@ -221,7 +252,7 @@ export default function IPSCvsUSPSA() {
                       occurrence after the second time.
                     </b>
                     <br />
-                    <StarIcon /> We mention only five examples here; however,
+                    <StarIcon /> We mention only eight examples here; however,
                     there are{" "}
                     <b>
                       <u>*many*</u>
