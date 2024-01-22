@@ -5,7 +5,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "assets/theme";
 import USIPSCNats2024 from "pages/matches/USIPSCNats2024";
 import usipscnats24_routes from "pages/matches/USIPSCNats2024/routes";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-EG0B598MM3");
 
@@ -19,7 +19,7 @@ export default function App() {
   }, [location.pathname]);
 
   useEffect(() => {
-    ReactGA.pageview(location.pathname + location.search);
+    ReactGA.send({ hitType: "pageview", page: location.pathname });
   }, [location]);
 
   const getRoutes = (allRoutes) =>
