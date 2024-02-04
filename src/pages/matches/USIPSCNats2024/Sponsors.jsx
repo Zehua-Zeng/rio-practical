@@ -94,7 +94,8 @@ export default function Sponsors() {
                     style={{
                       margin: "2rem auto",
                       display: "block",
-                      maxWidth: "60%",
+                      maxWidth: "95%",
+                      maxHeight: "275px",
                     }}
                   ></img>
                 </a>
@@ -115,7 +116,7 @@ export default function Sponsors() {
                         margin: "1rem auto",
                         display: "block",
                         maxWidth: "95%",
-                        maxHeight: "300px",
+                        maxHeight: "250px",
                       }}
                     ></img>
                   </a>
@@ -130,7 +131,7 @@ export default function Sponsors() {
                         margin: "1rem auto",
                         display: "block",
                         maxWidth: "95%",
-                        maxHeight: "300px",
+                        maxHeight: "250px",
                       }}
                     ></img>
                   </a>
@@ -144,7 +145,7 @@ export default function Sponsors() {
                         margin: "1rem auto",
                         display: "block",
                         maxWidth: "95%",
-                        maxHeight: "300px",
+                        maxHeight: "250px",
                       }}
                     ></img>
                   </a>
