@@ -11,7 +11,7 @@ import MKBox from "components/MKBox";
 import routes from "pages/matches/USIPSCNats2024/routes";
 import footerRoutes from "pages/matches/USIPSCNats2024/footer.routes";
 import bgImage from "assets/images/rio-bg.jpg";
-import IPSCRioLogo from "assets/images/IPSC-Rio-Match-Logo.png";
+import IPSCRioLogo from "assets/images/ipsc/IPSC-Rio-Match-Logo.png";
 
 export default function Schedule() {
   return (

@@ -10,7 +10,7 @@ import MKBox from "components/MKBox";
 
 import routes from "pages/matches/USIPSCNats2024/routes";
 import footerRoutes from "pages/matches/USIPSCNats2024/footer.routes";
-import bgImage from "assets/images/la-quinta-bg.png";
+import bgImage from "assets/images/hotels/la-quinta-bg.png";
 
 import SmokeFreeIcon from "@mui/icons-material/SmokeFree";
 import LocalLaundryServiceIcon from "@mui/icons-material/LocalLaundryService";
@@ -30,12 +30,12 @@ import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import SwipeableViews from "react-swipeable-views-react-18-fix";
 import { autoPlay } from "react-swipeable-views-utils-react-18-fix";
 
-import laQuintaLobby from "assets/images/la-quinta-lobby.png";
-import laQuintaRoom1 from "assets/images/la-quinta-room-1.png";
-import laQuintaRoom2 from "assets/images/la-quinta-room-2.png";
-import laQuintaPool from "assets/images/la-quinta-pool.png";
-import laQuintaBreakfest from "assets/images/la-quinta-breakfest.png";
-import laQuintaFitness from "assets/images/la-quinta-fitness.png";
+import laQuintaLobby from "assets/images/hotels/la-quinta-lobby.png";
+import laQuintaRoom1 from "assets/images/hotels/la-quinta-room-1.png";
+import laQuintaRoom2 from "assets/images/hotels/la-quinta-room-2.png";
+import laQuintaPool from "assets/images/hotels/la-quinta-pool.png";
+import laQuintaBreakfest from "assets/images/hotels/la-quinta-breakfest.png";
+import laQuintaFitness from "assets/images/hotels/la-quinta-fitness.png";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 

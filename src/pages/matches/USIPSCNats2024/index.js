@@ -15,25 +15,31 @@ import MKButton from "components/MKButton";
 import routes from "pages/matches/USIPSCNats2024/routes";
 import footerRoutes from "pages/matches/USIPSCNats2024/footer.routes";
 import bgImage from "assets/images/rio-bg.jpg";
-import IPSCRioLogo from "assets/images/IPSC-Rio-Match-Logo.png";
-import IPSCRange from "assets/images/IPSC-Range-150x150.png";
-import IPSCSquads from "assets/images/IPSC-Squads-150x150.png";
-import IPSCSchedule from "assets/images/IPSC-Schedule-150x150.png";
-import IPSCFAQs from "assets/images/IPSC-FAQs-150x150.png";
-import IPSCTourism from "assets/images/IPSC-Tourism-150x150.png";
-import usFlag from "assets/images/us.png";
-import canadaFlag from "assets/images/canada.png";
-import philippinesFlag from "assets/images/philippines.png";
-import puertoricoFlag from "assets/images/puerto-rico.png";
-import gbrFlag from "assets/images/gbr.png";
-import jamaicaFlag from "assets/images/jamaica.png";
-import sloveniaFlag from "assets/images/slovenia.png";
-import australiaFlag from "assets/images/australia.png";
-import norwayFlag from "assets/images/norway.png";
-import costaricaFlag from "assets/images/costa-rica.png";
-import southafricaFlag from "assets/images/south-africa.png";
-import swedenFlag from "assets/images/sweden.png";
-import arubaFlag from "assets/images/aruba.png";
+
+import IPSCRioLogo from "assets/images/ipsc/IPSC-Rio-Match-Logo.png";
+import IPSCRange from "assets/images/ipsc/IPSC-Range-150x150.png";
+import IPSCSquads from "assets/images/ipsc/IPSC-Squads-150x150.png";
+import IPSCSchedule from "assets/images/ipsc/IPSC-Schedule-150x150.png";
+import IPSCFAQs from "assets/images/ipsc/IPSC-FAQs-150x150.png";
+import IPSCTourism from "assets/images/ipsc/IPSC-Tourism-150x150.png";
+
+import staccatoLogo from "assets/images/sponsors/staccato.png";
+
+import usFlag from "assets/images/countries/us.png";
+import canadaFlag from "assets/images/countries/canada.png";
+import philippinesFlag from "assets/images/countries/philippines.png";
+import puertoricoFlag from "assets/images/countries/puerto-rico.png";
+import gbrFlag from "assets/images/countries/gbr.png";
+import jamaicaFlag from "assets/images/countries/jamaica.png";
+import sloveniaFlag from "assets/images/countries/slovenia.png";
+import australiaFlag from "assets/images/countries/australia.png";
+import norwayFlag from "assets/images/countries/norway.png";
+import costaricaFlag from "assets/images/countries/costa-rica.png";
+import southafricaFlag from "assets/images/countries/south-africa.png";
+import swedenFlag from "assets/images/countries/sweden.png";
+import arubaFlag from "assets/images/countries/aruba.png";
+import germanyFlag from "assets/images/countries/germany.png";
+import netherlandsFlag from "assets/images/countries/netherlands.png";
 
 function calculateTimeLeft() {
   const difference = +new Date(`2024-04-12`) - +new Date();
@@ -174,20 +180,31 @@ export default function USIPSCNats2024() {
           flexDirection="column"
           sx={{ mx: "auto", textAlign: "center" }}
         >
-          <MKTypography
-            variant="h1"
-            color="black"
-            sx={({ breakpoints, typography: { size } }) => ({
-              [breakpoints.down("md")]: {
-                fontSize: size["3xl"],
-              },
-            })}
-          >
-            Match Sponor
-          </MKTypography>
-          <MKTypography variant="h3" color="grey">
-            PENDING
-          </MKTypography>
+          <Grid item xs={12}>
+            <MKTypography
+              variant="h1"
+              color="black"
+              sx={({ breakpoints, typography: { size } }) => ({
+                [breakpoints.down("md")]: {
+                  fontSize: size["3xl"],
+                },
+              })}
+            >
+              <span style={{ color: "#DC143C" }}>Match Sponsor</span>
+            </MKTypography>
+            <div>
+              <a href="https://staccato2011.com/">
+                <img
+                  src={staccatoLogo}
+                  style={{
+                    margin: "2rem auto",
+                    display: "block",
+                    maxWidth: "95%",
+                  }}
+                ></img>
+              </a>
+            </div>
+          </Grid>
         </Grid>
       </Container>
       {/* info */}
@@ -197,7 +214,7 @@ export default function USIPSCNats2024() {
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <img src={IPSCRioLogo} style={{ maxWidth: "100%" }} />
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                500+ Competitors from 13 Countries!
+                600+ Competitors from 15 Countries!
               </MKTypography>
               <img src={usFlag} width="25px" style={{ margin: "5px" }}></img>
               <img
@@ -252,6 +269,16 @@ export default function USIPSCNats2024() {
                 style={{ margin: "5px" }}
               ></img>
               <img src={arubaFlag} width="25px" style={{ margin: "5px" }}></img>
+              <img
+                src={germanyFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
+              <img
+                src={netherlandsFlag}
+                width="25px"
+                style={{ margin: "5px" }}
+              ></img>
               <MKTypography
                 variant="body1"
                 fontWeight="regular"
