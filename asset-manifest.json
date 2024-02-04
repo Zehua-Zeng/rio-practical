@@ -1,29 +1,38 @@
 {
   "files": {
-    "main.js": "/static/js/main.f6e8df75.js",
+    "main.js": "/static/js/main.f4b200a9.js",
     "static/media/rio-bg.jpg": "/static/media/rio-bg.54922975065ea7ba183d.jpg",
     "static/media/IPSC-Rio-Match-Logo.png": "/static/media/IPSC-Rio-Match-Logo.2120820d2b32a36b4c34.png",
     "static/media/rio-range-map.png": "/static/media/rio-range-map.910e4670c9a28654b4db.png",
     "static/media/la-quinta-fitness.png": "/static/media/la-quinta-fitness.46ec5b4cf15493fc60d3.png",
     "static/media/la-quinta-pool.png": "/static/media/la-quinta-pool.aef14243406f6c42f899.png",
     "static/media/la-quinta-room-1.png": "/static/media/la-quinta-room-1.f8ed0c80bec2198a25b7.png",
+    "static/media/dillon.png": "/static/media/dillon.49b58de495630f7087b5.png",
     "static/media/la-quinta-bg.png": "/static/media/la-quinta-bg.f84f407ab4f2e83f0676.png",
     "static/media/la-quinta-room-2.png": "/static/media/la-quinta-room-2.f77f52260d07a4d421fd.png",
+    "static/media/limcat.png": "/static/media/limcat.177d209c889d7ec69d8d.png",
     "static/media/la-quinta-breakfest.png": "/static/media/la-quinta-breakfest.f5291df5274afcc10ad8.png",
+    "static/media/sauerland-coaching.png": "/static/media/sauerland-coaching.06fd9242e5fa6508945c.png",
+    "static/media/laugo-arms.png": "/static/media/laugo-arms.ccfe5d7c49a181858bd8.png",
     "static/media/la-quinta-lobby.png": "/static/media/la-quinta-lobby.8a38629240f0b5249f89.png",
+    "static/media/staccato.png": "/static/media/staccato.a99f692ee9a1012fe210.png",
+    "static/media/tanfoglio.png": "/static/media/tanfoglio.6496d0319e121499c4f6.png",
     "static/media/south-africa.png": "/static/media/south-africa.0cddef3ea0d586c28014.png",
+    "static/media/iwi.jpeg": "/static/media/iwi.e1f2c6498e016841deee.jpeg",
+    "static/media/glock.png": "/static/media/glock.f8f362d907b7c0897b63.png",
     "static/media/philippines.png": "/static/media/philippines.3d45c6d020277bd88d09.png",
     "static/media/jamaica.png": "/static/media/jamaica.1a33a05e46949e7fdbd4.png",
     "static/media/us.png": "/static/media/us.d9d98811ef4bc9ce5acc.png",
     "static/media/IPSC-Squads-150x150.png": "/static/media/IPSC-Squads-150x150.f690bc28286dc05735a5.png",
     "static/media/logo.png": "/static/media/logo.f74c6abd9f977983e733.png",
+    "static/media/ergoGrip.png": "/static/media/ergoGrip.8c14352ada11176c95a4.png",
     "static/media/canada.png": "/static/media/canada.034fa882196cace8e4c3.png",
     "static/media/australia.png": "/static/media/australia.74104d115e4895a42efc.png",
     "static/media/gbr.png": "/static/media/gbr.d693bf8108ce37a57852.png",
     "index.html": "/index.html",
-    "main.f6e8df75.js.map": "/static/js/main.f6e8df75.js.map"
+    "main.f4b200a9.js.map": "/static/js/main.f4b200a9.js.map"
   },
   "entrypoints": [
-    "static/js/main.f6e8df75.js"
+    "static/js/main.f4b200a9.js"
   ]
 }
