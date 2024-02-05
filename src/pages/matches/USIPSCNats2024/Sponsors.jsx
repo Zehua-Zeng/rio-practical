@@ -15,7 +15,7 @@ import sauerlandCoachingLogo from "assets/images/sponsors/sauerland-coaching.png
 import staccatoLogo from "assets/images/sponsors/staccato.png";
 import laugoArmsLogo from "assets/images/sponsors/laugo-arms.png";
 import glockLogo from "assets/images/sponsors/glock.png";
-import tanfoglioLogo from "assets/images/sponsors/tanfoglio.png";
+import ifgTanfoglioLogo from "assets/images/sponsors/ifg-tanfoglio.png";
 import iwiLogo from "assets/images/sponsors/iwi.jpeg";
 import dillonLogo from "assets/images/sponsors/dillon.png";
 import ergoGripLogo from "assets/images/sponsors/ergoGrip.png";
@@ -124,9 +124,9 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={6}>
                 <div>
-                  <a href="https://www.italianfirearmsgroup.com/tanfoglio">
+                  <a href="https://www.italianfirearmsgroup.com/">
                     <img
-                      src={tanfoglioLogo}
+                      src={ifgTanfoglioLogo}
                       style={{
                         margin: "1rem auto",
                         display: "block",
@@ -136,7 +136,8 @@ export default function Sponsors() {
                     ></img>
                   </a>
                 </div>
-                <br />
+              </Grid>
+              <Grid item xs={12}>
                 <div>
                   <a href="https://iwi.us/">
                     <img
@@ -145,7 +146,7 @@ export default function Sponsors() {
                         margin: "1rem auto",
                         display: "block",
                         maxWidth: "95%",
-                        maxHeight: "250px",
+                        maxHeight: "125px",
                       }}
                     ></img>
                   </a>
