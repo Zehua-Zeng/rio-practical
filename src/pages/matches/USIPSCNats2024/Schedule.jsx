@@ -39,13 +39,13 @@ export default function Schedule() {
           placeItems: "center",
         }}
       />
-      <Container sx={{ mt: { xs: 8, lg: 16 } }}>
+      <Container>
         <Card
           sx={{
             width: "100%",
             minHeight: "75vh",
+            marginTop: "-50vh",
             p: 2,
-            mt: -70,
             mb: 4,
             backdropFilter: "saturate(200%) blur(30px)",
             boxShadow: ({ boxShadows: { xxl } }) => xxl,
