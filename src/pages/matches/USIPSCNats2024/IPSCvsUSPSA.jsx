@@ -10,6 +10,11 @@ import StarIcon from "@mui/icons-material/Star";
 import RememberMeIcon from "@mui/icons-material/RememberMe";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
+import DirectionsWalkIcon from "@mui/icons-material/DirectionsWalk";
+import SettingsIcon from "@mui/icons-material/Settings";
+import BuildCircleIcon from "@mui/icons-material/BuildCircle";
+import WatchIcon from "@mui/icons-material/Watch";
+import GolfCourseIcon from "@mui/icons-material/GolfCourse";
 
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
@@ -166,9 +171,9 @@ export default function IPSCvsUSPSA() {
                     between the two. USPSA may have certain rules or divisions
                     that are unique to its competition.
                     <br />
-                    <LabelImportantIcon />{" "}
+                    <SettingsIcon />{" "}
                     <b>
-                      <u>Example 1:</u>
+                      <u style={{ color: "#3CB371" }}>Divisons:</u>
                     </b>{" "}
                     In USPSA, divisions are named{" "}
                     <b>"Limited", "Single Stack", and "Carry Optics"</b>,
@@ -181,34 +186,47 @@ export default function IPSCvsUSPSA() {
                       division in IPSC, but rather a discipline.
                     </b>
                     <br />
-                    <LabelImportantIcon />{" "}
+                    <BuildCircleIcon />{" "}
                     <b>
-                      <u>Example 2:</u>
+                      <u style={{ color: "#3CB371" }}>Equipments:</u>
+                    </b>{" "}
+                    <br />
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
+                    <b>
+                      <u>Equip Exp 1:</u>
                     </b>{" "}
                     In USPSA, you can put <b>magazine pouches</b> anywhere on
                     the belt, while IPSC ONLY allows you to do so in the Open
                     division. In other divisions, magazine pouches have to be{" "}
                     <b>at/behind your hip bones</b>.
                     <br />
-                    <LabelImportantIcon />{" "}
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
                     <b>
-                      <u>Example 3:</u>
+                      <u>Equip Exp 2:</u>
                     </b>{" "}
                     In Open division, USPSA allows magazines with a maximum
                     length of 171.25mm, while IPSC is <b>170mm FLAT</b>.
                     <br />
-                    <LabelImportantIcon />{" "}
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
                     <b>
-                      <u>Example 4:</u>
+                      <u>Equip Exp 3:</u>
                     </b>{" "}
                     IPSC Standard guns must fit in the IPSC BOX. However, many
                     USPSA Limited guns with 141.25mm magazines won't fit, and
                     most 5” barrel Limited guns need to use 126mm magazines to
                     meet the box requirements.
                     <br />
-                    <LabelImportantIcon />{" "}
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
                     <b>
-                      <u>Example 5:</u>
+                      <u>Equip Exp 4:</u>
                     </b>{" "}
                     In USPSA, you can load your 140mm magazines to full capacity
                     in the <b>Carry Optics</b> division. In IPSC, the maximum
@@ -216,9 +234,11 @@ export default function IPSCvsUSPSA() {
                     rounds. 140mm magazines are legal, but they can only be
                     loaded to 15 rounds.
                     <br />
-                    <LabelImportantIcon />{" "}
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
                     <b>
-                      <u>Example 6:</u>
+                      <u>Equip Exp 5:</u>
                     </b>{" "}
                     In <b>Production</b> and <b>Production Optics</b> divisions,
                     firearm modifications are restricted. Only minor detailing,
@@ -227,18 +247,40 @@ export default function IPSCvsUSPSA() {
                     components, changing the original color and/or finish,
                     and/or adding stripes or other embellishments, is allowed.
                     <br />
-                    <LabelImportantIcon />{" "}
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
                     <b>
-                      <u>Example 7:</u>
+                      <u>Equip Exp 6:</u>
                     </b>{" "}
                     In <b>Production</b> and <b>Production Optics</b> divisions,
                     the minimum trigger pull is 2.27kg (5lbs.) for first shot{" "}
                     <u style={{ color: "red" }}>*OR*</u> 1.36kg (3lbs.) for
                     every shot.
                     <br />
-                    <LabelImportantIcon />{" "}
+                    <DirectionsWalkIcon />{" "}
                     <b>
-                      <u>Example 8:</u>
+                      <u style={{ color: "#3CB371" }}>Walkthrough:</u>
+                    </b>{" "}
+                    In IPSC, you are not allowed to get into the stages (no
+                    stage inspection) before the match starts. After the
+                    3-minute walkthrough, only the <b>on-deck</b> shooter is
+                    allowed to do the stage inspection.{" "}
+                    <b>
+                      <u>Potential penalties:</u>
+                    </b>{" "}
+                    (1) Walkthrough without the permission of an RO (or the RM)
+                    assigned to THAT stage (first-time warning/second-time{" "}
+                    <b>
+                      <u style={{ color: "red" }}>*DQ*</u>
+                    </b>
+                    ); (2) Use of sighting aid (basically ANYTHING in their
+                    hands) during the walkthrough is prohibited (first-time
+                    warning/each subsequence one procedural).
+                    <br />
+                    <WatchIcon />{" "}
+                    <b>
+                      <u style={{ color: "#3CB371" }}>During Make Ready:</u>
                     </b>{" "}
                     In USPSA, once the Range Officer gives the command "Make
                     ready", you can take a sight picture and dry fire. However,
@@ -252,8 +294,56 @@ export default function IPSCvsUSPSA() {
                       occurrence after the second time.
                     </b>
                     <br />
-                    <StarIcon /> We mention only eight examples here; however,
-                    there are{" "}
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
+                    <b>
+                      <u>Make-Ready Exp 1:</u>
+                    </b>{" "}
+                    The optic device may be adjusted by{" "}
+                    <b>pointing at the ground</b> in front of the shooter. This
+                    means immediately in front of the shooter, NOT at a blank
+                    spot on the backstop.
+                    <br />
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
+                    <b>
+                      <u>Make-Ready Exp 2:</u>
+                    </b>{" "}
+                    Pulling the trigger/dropping the hammer is considered “dry
+                    firing”. Need to be extremely careful for{" "}
+                    <b>unloaded/chamber empty</b> start.
+                    <br />
+                    <GolfCourseIcon />{" "}
+                    <b>
+                      <u style={{ color: "#3CB371" }}>During Course of Fire:</u>
+                    </b>{" "}
+                    <br />
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
+                    <b>
+                      <u>Course-of-Fire Exp 1:</u>
+                    </b>{" "}
+                    You are <u style={{ color: "red" }}>*not*</u> permitted to
+                    move beyond a fault line. If you step outside of a shooting
+                    location, you must return from the same position, and then
+                    continue shooting.
+                    <br />
+                    <span style={{ paddingLeft: "1.5rem" }}>
+                      <LabelImportantIcon />
+                    </span>{" "}
+                    <b>
+                      <u>Course-of-Fire Exp 2:</u>
+                    </b>{" "}
+                    In a <b>Strong-Hand-Only/Weak-Hand-Only</b> stage, you are
+                    prohibited from using the opposite hand to assist or scoop
+                    the gun off the table. The opposite hand may only be used to
+                    touch the gun when clearing malfunctions.
+                    <br />
+                    <StarIcon /> We mention only some important examples here;
+                    however, there are{" "}
                     <b>
                       <u>*many*</u>
                     </b>{" "}

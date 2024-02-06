@@ -23,6 +23,7 @@ import limcatLogo from "assets/images/sponsors/limcat.png";
 import rollsizerLogo from "assets/images/sponsors/rollsizer.png";
 import timneyTriggersLogo from "assets/images/sponsors/timneyTriggers.png";
 import voodooTacticalLogo from "assets/images/sponsors/voodooTactical.png";
+import techwearLogo from "assets/images/sponsors/techwear.png";
 
 export default function Sponsors() {
   return (
@@ -238,6 +239,21 @@ export default function Sponsors() {
                     <a href="https://voodootactical.com/">
                       <img
                         src={voodooTacticalLogo}
+                        style={{
+                          margin: "1rem auto",
+                          display: "block",
+                          maxWidth: "95%",
+                          maxHeight: "200px",
+                        }}
+                      ></img>
+                    </a>
+                  </div>
+                </Grid>
+                <Grid item xs={12} md={4}>
+                  <div>
+                    <a href="https://techwearusa.com/">
+                      <img
+                        src={techwearLogo}
                         style={{
                           margin: "1rem auto",
                           display: "block",
