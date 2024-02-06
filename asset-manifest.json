@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.e605a23a.js",
+    "main.js": "/static/js/main.b0424062.js",
     "static/media/rio-bg.jpg": "/static/media/rio-bg.54922975065ea7ba183d.jpg",
     "static/media/IPSC-Rio-Match-Logo.png": "/static/media/IPSC-Rio-Match-Logo.2120820d2b32a36b4c34.png",
     "static/media/rio-range-map.png": "/static/media/rio-range-map.910e4670c9a28654b4db.png",
@@ -25,14 +25,15 @@
     "static/media/us.png": "/static/media/us.d9d98811ef4bc9ce5acc.png",
     "static/media/IPSC-Squads-150x150.png": "/static/media/IPSC-Squads-150x150.f690bc28286dc05735a5.png",
     "static/media/logo.png": "/static/media/logo.f74c6abd9f977983e733.png",
+    "static/media/techwear.png": "/static/media/techwear.02e6e7647d8254868bac.png",
     "static/media/ergoGrip.png": "/static/media/ergoGrip.8c14352ada11176c95a4.png",
     "static/media/canada.png": "/static/media/canada.034fa882196cace8e4c3.png",
     "static/media/australia.png": "/static/media/australia.74104d115e4895a42efc.png",
     "static/media/gbr.png": "/static/media/gbr.d693bf8108ce37a57852.png",
     "index.html": "/index.html",
-    "main.e605a23a.js.map": "/static/js/main.e605a23a.js.map"
+    "main.b0424062.js.map": "/static/js/main.b0424062.js.map"
   },
   "entrypoints": [
-    "static/js/main.e605a23a.js"
+    "static/js/main.b0424062.js"
   ]
 }
