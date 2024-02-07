@@ -130,6 +130,9 @@ export default function Sponsors() {
                   <br />
                   <b>IROA Range Officers</b>
                   <br />
+                  Evan Medley
+                  <span style={{ margin: "5px" }} class="fi fi-jm"></span>
+                  <br />
                   Fausto Gamallo
                   <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
