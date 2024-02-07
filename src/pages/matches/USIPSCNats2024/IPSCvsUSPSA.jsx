@@ -408,10 +408,11 @@ export default function IPSCvsUSPSA() {
                   >
                     <b>Recognition and Championships:</b> IPSC hosts the IPSC
                     World Shoot, which is the highest-level international
-                    practical shooting championship every three years,
-                    attracting competitors from around the world. USPSA hosts
-                    its own national championships and other major competitions
-                    within the United States.
+                    practical shooting championship every three years (from 2025
+                    World Shoot will be held every FOUR years), attracting
+                    competitors from around the world. USPSA hosts its own
+                    national championships and other major competitions within
+                    the United States.
                   </MKTypography>
                 </MKBox>
               </Stack>

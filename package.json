@@ -25,7 +25,8 @@
     "react-scripts": "5.0.1",
     "react-swipeable-views-react-18-fix": "0.14.1",
     "react-swipeable-views-utils-react-18-fix": "0.14.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "flag-icons": "7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
