@@ -130,7 +130,19 @@ export default function Sponsors() {
                   <br />
                   <b>IROA Range Officers</b>
                   <br />
-                  Evan Medley
+                  PENDING
+                </MKTypography>
+              </Grid>
+              <Grid item xs={12} lg={4}>
+                <MKTypography
+                  variant="body1"
+                  fontWeight="light"
+                  color="text"
+                  align="left"
+                >
+                  <b>NROI Range Officers</b>
+                  <br />
+                  {/* Evan Medley
                   <span style={{ margin: "5px" }} class="fi fi-jm"></span>
                   <br />
                   Fausto Gamallo
@@ -149,19 +161,9 @@ export default function Sponsors() {
                   <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
                   Sasja Barentsen
-                  <span style={{ margin: "5px" }} class="fi fi-nl"></span>
-                </MKTypography>
-              </Grid>
-              <Grid item xs={12} lg={4}>
-                <MKTypography
-                  variant="body1"
-                  fontWeight="light"
-                  color="text"
-                  align="left"
-                >
-                  <b>NROI Range Officers</b>
-                  <br />
-                  Alan Glickman
+                  <span style={{ margin: "5px" }} class="fi fi-nl"></span> */}
+                  PENDING
+                  {/* Alan Glickman
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
                   Amanda Fisher
@@ -270,7 +272,7 @@ export default function Sponsors() {
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
                   Warren Zieper
-                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span> */}
                 </MKTypography>
               </Grid>
             </Grid>
