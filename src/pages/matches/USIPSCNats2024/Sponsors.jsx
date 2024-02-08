@@ -24,6 +24,7 @@ import rollsizerLogo from "assets/images/sponsors/rollsizer.png";
 import timneyTriggersLogo from "assets/images/sponsors/timneyTriggers.png";
 import voodooTacticalLogo from "assets/images/sponsors/voodooTactical.png";
 import techwearLogo from "assets/images/sponsors/techwear.png";
+import holosunLogo from "assets/images/sponsors/holosun.png";
 
 export default function Sponsors() {
   return (
@@ -74,7 +75,7 @@ export default function Sponsors() {
                 <span style={{ color: "#DC143C" }}>Match Sponsor</span>
               </MKTypography>
               <div>
-                <a href="https://staccato2011.com/">
+                <a target="_blank" href="https://staccato2011.com/">
                   <img
                     src={staccatoLogo}
                     style={{
@@ -89,7 +90,7 @@ export default function Sponsors() {
                 <span style={{ color: "#DAA520" }}>Premier Sponsor</span>
               </MKTypography>
               <div>
-                <a href="https://www.laugoarms.com/">
+                <a target="_blank" href="https://www.laugoarms.com/">
                   <img
                     src={laugoArmsLogo}
                     style={{
@@ -110,7 +111,7 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={6}>
                 <div>
-                  <a href="https://us.glock.com/en">
+                  <a target="_blank" href="https://us.glock.com/en">
                     <img
                       src={glockLogo}
                       style={{
@@ -125,7 +126,10 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={6}>
                 <div>
-                  <a href="https://www.italianfirearmsgroup.com/">
+                  <a
+                    target="_blank"
+                    href="https://www.italianfirearmsgroup.com/"
+                  >
                     <img
                       src={ifgTanfoglioLogo}
                       style={{
@@ -138,9 +142,9 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
-              <Grid item xs={12}>
+              <Grid item xs={12} md={6}>
                 <div>
-                  <a href="https://iwi.us/">
+                  <a target="_blank" href="https://iwi.us/">
                     <img
                       src={iwiLogo}
                       style={{
@@ -153,125 +157,142 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
-              <Grid container item xs={12}>
-                <Grid item xs={12}>
-                  <MKTypography variant="h3" align="center" my={2}>
-                    <span style={{ color: "#3CB371" }}>Stage Sponsors</span>
-                  </MKTypography>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div>
-                    <a href="https://www.limcat.com/">
-                      <img
-                        src={limcatLogo}
-                        style={{
-                          margin: "1rem auto",
-                          display: "block",
-                          maxWidth: "95%",
-                          maxHeight: "200px",
-                        }}
-                      ></img>
-                    </a>
-                  </div>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div>
-                    <a href="https://www.dillonprecision.com/">
-                      <img
-                        src={dillonLogo}
-                        style={{
-                          margin: "1rem auto",
-                          display: "block",
-                          maxWidth: "95%",
-                          maxHeight: "200px",
-                        }}
-                      ></img>
-                    </a>
-                  </div>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div>
-                    <a href="https://www.ergogrips.net/">
-                      <img
-                        src={ergoGripLogo}
-                        style={{
-                          margin: "1rem auto",
-                          display: "block",
-                          maxWidth: "95%",
-                          maxHeight: "200px",
-                        }}
-                      ></img>
-                    </a>
-                  </div>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div>
-                    <a href="https://www.rollsizer.com/">
-                      <img
-                        src={rollsizerLogo}
-                        style={{
-                          margin: "1rem auto",
-                          display: "block",
-                          maxWidth: "95%",
-                          maxHeight: "200px",
-                        }}
-                      ></img>
-                    </a>
-                  </div>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div>
-                    <a href="https://timneytriggers.com/">
-                      <img
-                        src={timneyTriggersLogo}
-                        style={{
-                          margin: "1rem auto",
-                          display: "block",
-                          maxWidth: "95%",
-                          maxHeight: "200px",
-                        }}
-                      ></img>
-                    </a>
-                  </div>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div>
-                    <a href="https://voodootactical.com/">
-                      <img
-                        src={voodooTacticalLogo}
-                        style={{
-                          margin: "1rem auto",
-                          display: "block",
-                          maxWidth: "95%",
-                          maxHeight: "200px",
-                        }}
-                      ></img>
-                    </a>
-                  </div>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div>
-                    <a href="https://techwearusa.com/">
-                      <img
-                        src={techwearLogo}
-                        style={{
-                          margin: "1rem auto",
-                          display: "block",
-                          maxWidth: "95%",
-                          maxHeight: "200px",
-                        }}
-                      ></img>
-                    </a>
-                  </div>
-                </Grid>
+              <Grid item xs={12} md={6}>
+                <div>
+                  <a target="_blank" href="https://holosun.com/">
+                    <img
+                      src={holosunLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "125px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
               </Grid>
+            </Grid>
+            <Grid container item xs={12}>
+              <Grid item xs={12}>
+                <MKTypography variant="h3" align="center" my={2}>
+                  <span style={{ color: "#3CB371" }}>Stage Sponsors</span>
+                </MKTypography>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://www.limcat.com/">
+                    <img
+                      src={limcatLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://www.dillonprecision.com/">
+                    <img
+                      src={dillonLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://www.ergogrips.net/">
+                    <img
+                      src={ergoGripLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://www.rollsizer.com/">
+                    <img
+                      src={rollsizerLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://timneytriggers.com/">
+                    <img
+                      src={timneyTriggersLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://voodootactical.com/">
+                    <img
+                      src={voodooTacticalLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://techwearusa.com/">
+                    <img
+                      src={techwearLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+            </Grid>
+            <Grid container item xs={12}>
               <Grid item xs={12}>
                 <MKTypography variant="h4" color="text" align="center" my={2}>
                   RO Lunch Sponsor
                 </MKTypography>
               </Grid>
               <Grid item xs={12}>
-                <a href="https://sauerlandcoaching.com/">
+                <a target="_blank" href="https://sauerlandcoaching.com/">
                   <img
                     src={sauerlandCoachingLogo}
                     style={{

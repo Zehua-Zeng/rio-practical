@@ -349,7 +349,10 @@ export default function IPSCvsUSPSA() {
                     </b>{" "}
                     small rule differences between IPSC and USPSA, so it's
                     crucial to review the latest version of{" "}
-                    <a href="https://www.ipsc.org/wp-content/uploads/2023/04/IPSC-Handgun-Competition-Rules-Apr-2023-Edition-Final-25-Apr-2023.pdf">
+                    <a
+                      target="_blank"
+                      href="https://www.ipsc.org/wp-content/uploads/2023/04/IPSC-Handgun-Competition-Rules-Apr-2023-Edition-Final-25-Apr-2023.pdf"
+                    >
                       <b>IPSC rules</b>
                     </a>{" "}
                     before the match. In the worst-case scenario, your equipment
@@ -432,7 +435,10 @@ export default function IPSCvsUSPSA() {
               >
                 <TipsAndUpdatesIcon /> <b>Other Resources:</b> You can find more
                 information about the difference between IPSC and USPSA on{" "}
-                <a href="https://s3.uspsa.io/media/IPSCRules2021.pdf">
+                <a
+                  target="_blank"
+                  href="https://s3.uspsa.io/media/IPSCRules2021.pdf"
+                >
                   <b>this article (from USPSA Magazine)</b>
                 </a>
                 . However, some of the information is old, such as the

@@ -111,8 +111,8 @@ export default function GeneralInfo() {
                 <b>
                   EQUIPMENT CHECK handbook - Click{" "}
                   <a
-                    href="https://www.ipsc.org/wp-content/uploads/2020/06/IPSC-Handgun-Equipment-Check-Handbook-Jan-2019-edition.pdf"
                     target="_blank"
+                    href="https://www.ipsc.org/wp-content/uploads/2020/06/IPSC-Handgun-Equipment-Check-Handbook-Jan-2019-edition.pdf"
                   >
                     HERE
                   </a>

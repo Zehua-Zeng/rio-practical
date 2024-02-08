@@ -193,7 +193,7 @@ export default function USIPSCNats2024() {
               <span style={{ color: "#DC143C" }}>Match Sponsor</span>
             </MKTypography>
             <div>
-              <a href="https://staccato2011.com/">
+              <a target="_blank" href="https://staccato2011.com/">
                 <img
                   src={staccatoLogo}
                   style={{
@@ -577,7 +577,10 @@ export default function USIPSCNats2024() {
                     For shooters from outside of the US, you must be an active
                     IPSC member in your Region of residence to sign up the
                     match:{" "}
-                    <a href="https://practiscore.com/rio-salado-2024-ipsc-nationals/register">
+                    <a
+                      target="_blank"
+                      href="https://practiscore.com/rio-salado-2024-ipsc-nationals/register"
+                    >
                       PractiScore.com
                     </a>
                     .

@@ -232,8 +232,8 @@ export default function Hotels() {
                 <br />
                 <b style={{ color: "red" }}>Booking Link:</b>{" "}
                 <a
-                  href="https://www.wyndhamhotels.com/hotels/52777?checkInDate=04/11/2024&checkOutDate=04/15/2024&groupCode=CGUSIP"
                   target="_blank"
+                  href="https://www.wyndhamhotels.com/hotels/52777?checkInDate=04/11/2024&checkOutDate=04/15/2024&groupCode=CGUSIP"
                 >
                   https://www.wyndhamhotels.com/hotels/52777?checkInDate=04/11/2024&checkOutDate=04/15/2024&groupCode=CGUSIP
                 </a>{" "}
