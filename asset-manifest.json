@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.5fc64386.css",
-    "main.js": "/static/js/main.c44b3be2.js",
+    "main.js": "/static/js/main.0ca9a5d4.js",
     "static/media/rio-bg.jpg": "/static/media/rio-bg.54922975065ea7ba183d.jpg",
     "static/media/IPSC-Rio-Match-Logo.png": "/static/media/IPSC-Rio-Match-Logo.2120820d2b32a36b4c34.png",
+    "static/media/holosun.png": "/static/media/holosun.9db03c12342fc2670228.png",
     "static/media/rio-range-map.png": "/static/media/rio-range-map.910e4670c9a28654b4db.png",
     "static/media/la-quinta-fitness.png": "/static/media/la-quinta-fitness.46ec5b4cf15493fc60d3.png",
     "static/media/ifg-tanfoglio.png": "/static/media/ifg-tanfoglio.159b5b1c7cca9901bace.png",
@@ -303,10 +304,10 @@
     "static/media/pe.svg": "/static/media/pe.d64e9732fcaa8f765994.svg",
     "static/media/id.svg": "/static/media/id.f624e2c8444a7794b357.svg",
     "main.5fc64386.css.map": "/static/css/main.5fc64386.css.map",
-    "main.c44b3be2.js.map": "/static/js/main.c44b3be2.js.map"
+    "main.0ca9a5d4.js.map": "/static/js/main.0ca9a5d4.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc64386.css",
-    "static/js/main.c44b3be2.js"
+    "static/js/main.0ca9a5d4.js"
   ]
 }
