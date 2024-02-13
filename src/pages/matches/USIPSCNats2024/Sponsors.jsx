@@ -18,13 +18,14 @@ import glockLogo from "assets/images/sponsors/glock.png";
 import ifgTanfoglioLogo from "assets/images/sponsors/ifg-tanfoglio.png";
 import iwiLogo from "assets/images/sponsors/iwi.jpeg";
 import dillonLogo from "assets/images/sponsors/dillon.png";
-import ergoGripLogo from "assets/images/sponsors/ergoGrip.png";
+import ergoGripLogo from "assets/images/sponsors/ergo-grip.png";
 import limcatLogo from "assets/images/sponsors/limcat.png";
 import rollsizerLogo from "assets/images/sponsors/rollsizer.png";
-import timneyTriggersLogo from "assets/images/sponsors/timneyTriggers.png";
-import voodooTacticalLogo from "assets/images/sponsors/voodooTactical.png";
+import timneyTriggersLogo from "assets/images/sponsors/timney-triggers.png";
+import voodooTacticalLogo from "assets/images/sponsors/voodoo-tactical.png";
 import techwearLogo from "assets/images/sponsors/techwear.png";
 import holosunLogo from "assets/images/sponsors/holosun.png";
+import vortexOpticsLogo from "assets/images/sponsors/vortex-optics.png";
 
 export default function Sponsors() {
   return (
@@ -172,6 +173,21 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
+              <Grid item xs={12}>
+                <div>
+                  <a target="_blank" href="https://vortexoptics.com/">
+                    <img
+                      src={vortexOpticsLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "125px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
             </Grid>
             <Grid container item xs={12}>
               <Grid item xs={12}>
@@ -269,7 +285,7 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid item xs={12}>
                 <div>
                   <a target="_blank" href="https://techwearusa.com/">
                     <img
@@ -278,7 +294,7 @@ export default function Sponsors() {
                         margin: "1rem auto",
                         display: "block",
                         maxWidth: "95%",
-                        maxHeight: "200px",
+                        maxHeight: "60px",
                       }}
                     ></img>
                   </a>
