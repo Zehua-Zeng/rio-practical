@@ -26,6 +26,8 @@ import voodooTacticalLogo from "assets/images/sponsors/voodoo-tactical.png";
 import techwearLogo from "assets/images/sponsors/techwear.png";
 import holosunLogo from "assets/images/sponsors/holosun.png";
 import vortexOpticsLogo from "assets/images/sponsors/vortex-optics.png";
+import cmoreLogo from "assets/images/sponsors/cmore.png";
+import redhillTacticalLogo from "assets/images/sponsors/redhill-tactical.png";
 
 export default function Sponsors() {
   return (
@@ -88,7 +90,7 @@ export default function Sponsors() {
                 </a>
               </div>
               <MKTypography variant="h2" align="center" my={2}>
-                <span style={{ color: "#DAA520" }}>Premier Sponsor</span>
+                <span style={{ color: "#CD5C5C" }}>Premier Sponsor</span>
               </MKTypography>
               <div>
                 <a target="_blank" href="https://www.laugoarms.com/">
@@ -227,9 +229,9 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={4}>
                 <div>
-                  <a target="_blank" href="https://www.ergogrips.net/">
+                  <a target="_blank" href="https://www.redhilltactical.com/">
                     <img
-                      src={ergoGripLogo}
+                      src={redhillTacticalLogo}
                       style={{
                         margin: "1rem auto",
                         display: "block",
@@ -285,7 +287,7 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
-              <Grid item xs={12}>
+              <Grid item xs={12} md={4}>
                 <div>
                   <a target="_blank" href="https://techwearusa.com/">
                     <img
@@ -294,14 +296,48 @@ export default function Sponsors() {
                         margin: "1rem auto",
                         display: "block",
                         maxWidth: "95%",
-                        maxHeight: "60px",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://www.ergogrips.net/">
+                    <img
+                      src={ergoGripLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
                       }}
                     ></img>
                   </a>
                 </div>
               </Grid>
             </Grid>
-            <Grid container item xs={12}>
+            <Grid container item xs={12} md={6}>
+              <Grid item xs={12}>
+                <MKTypography variant="h4" align="center" my={2}>
+                  <span style={{ color: "#DAA520" }}>Gold Sponsor</span>
+                </MKTypography>
+              </Grid>
+              <Grid item xs={12}>
+                <a target="_blank" href="https://cmore.com/">
+                  <img
+                    src={cmoreLogo}
+                    style={{
+                      margin: "1rem auto",
+                      display: "block",
+                      maxHeight: "75px",
+                    }}
+                  ></img>
+                </a>
+              </Grid>
+            </Grid>
+            <Grid container item xs={12} md={6}>
               <Grid item xs={12}>
                 <MKTypography variant="h4" color="text" align="center" my={2}>
                   RO Lunch Sponsor
