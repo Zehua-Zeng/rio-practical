@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5fc64386.css",
-    "main.js": "/static/js/main.81c8ab96.js",
+    "main.js": "/static/js/main.6d07f750.js",
     "static/media/rio-bg.jpg": "/static/media/rio-bg.54922975065ea7ba183d.jpg",
     "static/media/IPSC-Rio-Match-Logo.png": "/static/media/IPSC-Rio-Match-Logo.2120820d2b32a36b4c34.png",
     "static/media/holosun.png": "/static/media/holosun.9db03c12342fc2670228.png",
@@ -25,6 +25,7 @@
     "static/media/vortex-optics.png": "/static/media/vortex-optics.231c9d37a949d50cd84f.png",
     "static/media/me.svg": "/static/media/me.8f1021b05caa582b2ac5.svg",
     "static/media/laugo-arms.png": "/static/media/laugo-arms.ccfe5d7c49a181858bd8.png",
+    "static/media/cmore.png": "/static/media/cmore.2d5e8194f74338a23245.png",
     "static/media/do.svg": "/static/media/do.5cd644eecb37da649906.svg",
     "static/media/bz.svg": "/static/media/bz.224e3b4d5fa6d8e404b0.svg",
     "static/media/je.svg": "/static/media/je.4e2fc01b551946f8cbb9.svg",
@@ -305,10 +306,10 @@
     "static/media/pe.svg": "/static/media/pe.d64e9732fcaa8f765994.svg",
     "static/media/id.svg": "/static/media/id.f624e2c8444a7794b357.svg",
     "main.5fc64386.css.map": "/static/css/main.5fc64386.css.map",
-    "main.81c8ab96.js.map": "/static/js/main.81c8ab96.js.map"
+    "main.6d07f750.js.map": "/static/js/main.6d07f750.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc64386.css",
-    "static/js/main.81c8ab96.js"
+    "static/js/main.6d07f750.js"
   ]
 }
