@@ -28,6 +28,7 @@ import holosunLogo from "assets/images/sponsors/holosun.png";
 import vortexOpticsLogo from "assets/images/sponsors/vortex-optics.png";
 import cmoreLogo from "assets/images/sponsors/cmore.png";
 import redhillTacticalLogo from "assets/images/sponsors/redhill-tactical.png";
+import czcLogo from "assets/images/sponsors/czc.png";
 
 export default function Sponsors() {
   return (
@@ -162,6 +163,21 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={6}>
                 <div>
+                  <a target="_blank" href="https://czcustom.com/">
+                    <img
+                      src={czcLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "125px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <div>
                   <a target="_blank" href="https://holosun.com/">
                     <img
                       src={holosunLogo}
@@ -175,7 +191,7 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
-              <Grid item xs={12}>
+              <Grid item xs={12} md={6}>
                 <div>
                   <a target="_blank" href="https://vortexoptics.com/">
                     <img
