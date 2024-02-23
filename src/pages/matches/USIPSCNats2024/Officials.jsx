@@ -58,17 +58,6 @@ export default function Sponsors() {
               <MKTypography variant="h2" color="text" align="center" my={2}>
                 Officials
               </MKTypography>
-              <MKTypography
-                variant="body1"
-                align="center"
-                my={2}
-                style={{ color: "#DC143C" }}
-              >
-                We are actively looking for IROA Officials. If you are
-                interested in serving our match, please contact{" "}
-                <a href="mailto:rsppmatch@gmail.com">rsppmatch@gmail.com</a> for
-                more details. Thank you so much!
-              </MKTypography>
             </Grid>
             <Grid container item xs={12}>
               <Grid item xs={12} lg={4}>
