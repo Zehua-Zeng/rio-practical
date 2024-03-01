@@ -165,7 +165,18 @@ export default function GeneralInfo() {
             </Grid>
             <Grid item xs={12} lg={9}>
               <MKTypography variant="body1" color="text" fontWeight="light">
-                PENDING
+                Please ship ammo to the following address with this format:{" "}
+                <br />
+                <b>
+                  [Your Name] (For 2024 IPSC Hangun Nationals)
+                  <br />
+                  C/O Jim Adame
+                  <br />
+                  Rio Salado Sportsman's Club,
+                  <br />
+                  3060 N Usery Pass Road, <br />
+                  Mesa, AZ 85207
+                </b>
               </MKTypography>
             </Grid>
             <Grid item xs={12}>
