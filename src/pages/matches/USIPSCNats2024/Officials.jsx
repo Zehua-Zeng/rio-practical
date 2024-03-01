@@ -119,25 +119,28 @@ export default function Sponsors() {
                   <br />
                   <b>IROA Range Officers</b>
                   <br />
-                  PENDING
-                </MKTypography>
-              </Grid>
-              <Grid item xs={12} lg={4}>
-                <MKTypography
-                  variant="body1"
-                  fontWeight="light"
-                  color="text"
-                  align="left"
-                >
-                  <b>NROI Range Officers</b>
+                  Danny Olstad
+                  <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
-                  {/* Evan Medley
+                  Doug Wilson
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
+                  Evan Medley
                   <span style={{ margin: "5px" }} class="fi fi-jm"></span>
                   <br />
                   Fausto Gamallo
                   <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
+                  John Dammers
+                  <span style={{ margin: "5px" }} class="fi fi-cw"></span>
+                  <br />
                   Kevin Bracken
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
+                  Lennie Moulton
+                  <span style={{ margin: "5px" }} class="fi fi-jm"></span>
+                  <br />
+                  Matthew Scott
                   <span style={{ margin: "5px" }} class="fi fi-ca"></span>
                   <br />
                   Mike Carraher
@@ -150,9 +153,31 @@ export default function Sponsors() {
                   <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
                   Sasja Barentsen
-                  <span style={{ margin: "5px" }} class="fi fi-nl"></span> */}
-                  PENDING
-                  {/* Alan Glickman
+                  <span style={{ margin: "5px" }} class="fi fi-nl"></span>
+                  <br />
+                  Scott Hattrup
+                  <span style={{ margin: "5px" }} class="fi fi-us"></span>
+                  <br />
+                  Valentin Demidov
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
+                  Victori Yaroslavsky
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
+                  Vladimir Yaroslavsky
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                </MKTypography>
+              </Grid>
+              <Grid item xs={12} lg={4}>
+                <MKTypography
+                  variant="body1"
+                  fontWeight="light"
+                  color="text"
+                  align="left"
+                >
+                  <b>NROI Range Officers</b>
+                  <br />
+                  Alan Glickman
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
                   Amanda Fisher
@@ -170,8 +195,14 @@ export default function Sponsors() {
                   Brenton Swift
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
+                  Brian Williams
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
                   Bryan Larson
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
+                  <br />
+                  Catherine Asselin
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
                   <br />
                   Danny Minter
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
@@ -209,6 +240,9 @@ export default function Sponsors() {
                   Ivan Runions
                   <span style={{ margin: "5px" }} class="fi fi-ca"></span>
                   <br />
+                  Jean-Charles Carriere
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
                   John Catterall
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
@@ -236,10 +270,19 @@ export default function Sponsors() {
                   Michael McCrite
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
+                  Michael Demidov
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
                   Mike Larson
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
+                  Nick Dabrensky
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
                   Phillip Gallegos
+                  <span style={{ margin: "5px" }} class="fi fi-us"></span>
+                  <br />
+                  Raymond Eng
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
                   Rich Poirier
@@ -261,7 +304,7 @@ export default function Sponsors() {
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
                   Warren Zieper
-                  <span style={{ margin: "5px" }} class="fi fi-ca"></span> */}
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
                 </MKTypography>
               </Grid>
             </Grid>
