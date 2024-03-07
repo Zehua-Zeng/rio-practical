@@ -333,8 +333,21 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
+              <Grid item xs={12} md={4}>
+                <a target="_blank" href="https://cmore.com/">
+                  <img
+                    src={cmoreLogo}
+                    style={{
+                      margin: "1rem auto",
+                      display: "block",
+                      maxWidth: "95%",
+                      maxHeight: "200px",
+                    }}
+                  ></img>
+                </a>
+              </Grid>
             </Grid>
-            <Grid container item xs={12} md={6}>
+            {/* <Grid container item xs={12} md={6}>
               <Grid item xs={12}>
                 <MKTypography variant="h4" align="center" my={2}>
                   <span style={{ color: "#DAA520" }}>Gold Sponsor</span>
@@ -352,8 +365,8 @@ export default function Sponsors() {
                   ></img>
                 </a>
               </Grid>
-            </Grid>
-            <Grid container item xs={12} md={6}>
+            </Grid> */}
+            <Grid container item xs={12}>
               <Grid item xs={12}>
                 <MKTypography variant="h4" color="text" align="center" my={2}>
                   RO Lunch Sponsor

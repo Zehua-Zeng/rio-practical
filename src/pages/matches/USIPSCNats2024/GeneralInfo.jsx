@@ -146,7 +146,7 @@ export default function GeneralInfo() {
             {/* 3 */}
             <Grid item xs={12} lg={3}>
               <MKTypography variant="h4" color="text" align="center">
-                Match Book
+                Stages
               </MKTypography>
             </Grid>
             <Grid item xs={12} lg={9}>
