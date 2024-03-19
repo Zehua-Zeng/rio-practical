@@ -177,7 +177,7 @@ export default function GeneralInfo() {
                   <br />
                   Rio Salado Sportsman's Club,
                   <br />
-                  3060 N Usery Pass Road, <br />
+                  3960 N Usery Pass Road, <br />
                   Mesa, AZ 85207
                 </b>
               </MKTypography>
