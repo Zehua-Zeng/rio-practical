@@ -125,6 +125,9 @@ export default function Sponsors() {
                   Doug Wilson
                   <span style={{ margin: "5px" }} class="fi fi-ca"></span>
                   <br />
+                  Einar Bakke
+                  <span style={{ margin: "5px" }} class="fi fi-no"></span>
+                  <br />
                   Evan Medley
                   <span style={{ margin: "5px" }} class="fi fi-jm"></span>
                   <br />
@@ -179,6 +182,9 @@ export default function Sponsors() {
                   <br />
                   Alan Glickman
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
+                  <br />
+                  Alma Grace Sara
+                  <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
                   Amanda Fisher
                   <span style={{ margin: "5px" }} class="fi fi-ca"></span>
@@ -246,6 +252,9 @@ export default function Sponsors() {
                   John Catterall
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
+                  Joseph Arestorinas
+                  <span style={{ margin: "5px" }} class="fi fi-ph"></span>
+                  <br />
                   Justin Fuller
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
@@ -276,6 +285,9 @@ export default function Sponsors() {
                   Mike Larson
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
+                  Morten Wessel Nybrott
+                  <span style={{ margin: "5px" }} class="fi fi-no"></span>
+                  <br />
                   Nick Dabrensky
                   <span style={{ margin: "5px" }} class="fi fi-ca"></span>
                   <br />
@@ -293,6 +305,9 @@ export default function Sponsors() {
                   <br />
                   Rob Pickering
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
+                  <br />
+                  Rosanna Arestorinas
+                  <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
                   Ross Chu
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
