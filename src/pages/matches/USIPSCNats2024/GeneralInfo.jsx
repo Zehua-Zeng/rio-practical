@@ -146,8 +146,8 @@ export default function GeneralInfo() {
             </Grid>
             {/* 3 */}
             <Grid item xs={12} lg={3}>
-              <MKTypography variant="h4" color="text" align="center">
-                Stages
+              <MKTypography variant="h4" align="center">
+                <span style={{ color: "#FF6347" }}>Match Stages</span>
               </MKTypography>
             </Grid>
             <Grid item xs={12} lg={9}>
