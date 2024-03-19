@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5fc64386.css",
-    "main.js": "/static/js/main.03d63a70.js",
+    "main.js": "/static/js/main.ad79cff5.js",
+    "static/media/2024-IPSC-Nationals-All-Stages-Print.pdf": "/static/media/2024-IPSC-Nationals-All-Stages-Print.91c2414017dadd8f1124.pdf",
     "static/media/rio-bg.jpg": "/static/media/rio-bg.54922975065ea7ba183d.jpg",
     "static/media/IPSC-Rio-Match-Logo.png": "/static/media/IPSC-Rio-Match-Logo.2120820d2b32a36b4c34.png",
     "static/media/holosun.png": "/static/media/holosun.9db03c12342fc2670228.png",
     "static/media/rio-range-map.png": "/static/media/rio-range-map.910e4670c9a28654b4db.png",
     "static/media/la-quinta-fitness.png": "/static/media/la-quinta-fitness.46ec5b4cf15493fc60d3.png",
+    "static/media/apollo-arms.png": "/static/media/apollo-arms.139221b5647aab61b01f.png",
     "static/media/ifg-tanfoglio.png": "/static/media/ifg-tanfoglio.159b5b1c7cca9901bace.png",
     "static/media/rs.svg": "/static/media/rs.e8db134b772c9ca40b2a.svg",
     "static/media/la-quinta-pool.png": "/static/media/la-quinta-pool.aef14243406f6c42f899.png",
@@ -67,6 +69,7 @@
     "static/media/dm.svg": "/static/media/dm.a87ef3072bee60985f03.svg",
     "static/media/sm.svg": "/static/media/sm.f28af6cd07088132e307.svg",
     "static/media/ir.svg": "/static/media/ir.11a5a321e10eede7a53d.svg",
+    "static/media/mgm-targets.png": "/static/media/mgm-targets.5a89e0d4148d2a5aa9dc.png",
     "static/media/ht.svg": "/static/media/ht.9903be3bfac8099fe813.svg",
     "static/media/bn.svg": "/static/media/bn.43328fe6ecf986eab3fe.svg",
     "static/media/eac.svg": "/static/media/eac.2f2a614596257c8a9f26.svg",
@@ -308,10 +311,10 @@
     "static/media/pe.svg": "/static/media/pe.d64e9732fcaa8f765994.svg",
     "static/media/id.svg": "/static/media/id.f624e2c8444a7794b357.svg",
     "main.5fc64386.css.map": "/static/css/main.5fc64386.css.map",
-    "main.03d63a70.js.map": "/static/js/main.03d63a70.js.map"
+    "main.ad79cff5.js.map": "/static/js/main.ad79cff5.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc64386.css",
-    "static/js/main.03d63a70.js"
+    "static/js/main.ad79cff5.js"
   ]
 }
