@@ -172,6 +172,61 @@ export default function USIPSCNats2024() {
           </Grid>
         </Container>
       </MKBox>
+      {/* news and updates */}
+      <Container sx={{ mt: { xs: 8, lg: 16 } }}>
+        <Grid
+          container
+          xs={12}
+          justifyContent="center"
+          alignItems="center"
+          flexDirection="column"
+          sx={{ mx: "auto", textAlign: "center" }}
+        >
+          <Grid item xs={12}>
+            <MKTypography
+              variant="h1"
+              color="black"
+              sx={({ breakpoints, typography: { size } }) => ({
+                [breakpoints.down("md")]: {
+                  fontSize: size["3xl"],
+                },
+              })}
+            >
+              <span style={{ color: "#FF6347" }}>News and Updates</span>
+            </MKTypography>
+            <MKTypography variant="body1" fontWeight="regular" mb={1} pr={2}>
+              <b>
+                <u>Match Stages</u> are uploaded (Last Update Mar 18, 2024):{" "}
+              </b>{" "}
+              <a href="#/matches/2024-us-ipsc-nats/general-info">
+                click to check general information
+              </a>
+              <br />
+              <b>
+                <u>Match Sponsors</u> are updated (Last Update Mar 18, 2024):{" "}
+              </b>{" "}
+              <a href="#/matches/2024-us-ipsc-nats/sponsors">
+                click to check sponsors
+              </a>
+              <br />
+              <b>
+                <u>Match Officials</u> are updated (Last Update Feb 29, 2024):{" "}
+              </b>{" "}
+              <a href="#/matches/2024-us-ipsc-nats/officials">
+                click to check officials
+              </a>
+              <br />
+              <b>
+                <u>Ammo Shipping Info</u> is updated (Last Update Feb 29, 2024):{" "}
+              </b>{" "}
+              <a href="#/matches/2024-us-ipsc-nats/general-info">
+                click to check general information
+              </a>
+              <br />
+            </MKTypography>
+          </Grid>
+        </Grid>
+      </Container>
       {/* match sponsor */}
       <Container sx={{ mt: { xs: 8, lg: 16 } }}>
         <Grid

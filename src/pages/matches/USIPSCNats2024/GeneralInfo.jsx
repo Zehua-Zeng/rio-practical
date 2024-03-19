@@ -13,6 +13,7 @@ import footerRoutes from "pages/matches/USIPSCNats2024/footer.routes";
 import bgImage from "assets/images/rio-bg.jpg";
 import rioRangeMap from "assets/images/rio-range-map.png";
 import logoRio from "assets/images/logo.png";
+import stagesPdf from "assets/2024-IPSC-Nationals-All-Stages-Print.pdf";
 
 export default function GeneralInfo() {
   return (
@@ -151,7 +152,9 @@ export default function GeneralInfo() {
             </Grid>
             <Grid item xs={12} lg={9}>
               <MKTypography variant="body1" color="text" fontWeight="light">
-                PENDING
+                <a href={stagesPdf} target="_blank">
+                  Download Stages PDF
+                </a>
               </MKTypography>
             </Grid>
             <Grid item xs={12}>

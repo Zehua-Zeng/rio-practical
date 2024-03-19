@@ -29,6 +29,8 @@ import vortexOpticsLogo from "assets/images/sponsors/vortex-optics.png";
 import cmoreLogo from "assets/images/sponsors/cmore.png";
 import redhillTacticalLogo from "assets/images/sponsors/redhill-tactical.png";
 import czcLogo from "assets/images/sponsors/czc.png";
+import apolloArmsLogo from "assets/images/sponsors/apollo-arms.png";
+import mgmTargetsLogo from "assets/images/sponsors/mgm-targets.png";
 
 export default function Sponsors() {
   return (
@@ -106,6 +108,19 @@ export default function Sponsors() {
                   ></img>
                 </a>
               </div>
+              <div>
+                <a target="_blank" href="https://iwi.us/">
+                  <img
+                    src={iwiLogo}
+                    style={{
+                      margin: "1rem auto",
+                      display: "block",
+                      maxWidth: "95%",
+                      maxHeight: "200px",
+                    }}
+                  ></img>
+                </a>
+              </div>
             </Grid>
             <Grid container item xs={12}>
               <Grid item xs={12}>
@@ -148,9 +163,24 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={6}>
                 <div>
-                  <a target="_blank" href="https://iwi.us/">
+                  <a target="_blank" href="https://holosun.com/">
                     <img
-                      src={iwiLogo}
+                      src={holosunLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "125px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <div>
+                  <a target="_blank" href="https://vortexoptics.com/">
+                    <img
+                      src={vortexOpticsLogo}
                       style={{
                         margin: "1rem auto",
                         display: "block",
@@ -178,29 +208,68 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={6}>
                 <div>
-                  <a target="_blank" href="https://holosun.com/">
+                  <a target="_blank" href="https://mgmtargets.com/">
                     <img
-                      src={holosunLogo}
+                      src={mgmTargetsLogo}
                       style={{
                         margin: "1rem auto",
                         display: "block",
                         maxWidth: "95%",
-                        maxHeight: "125px",
+                        maxHeight: "200px",
                       }}
                     ></img>
                   </a>
                 </div>
               </Grid>
-              <Grid item xs={12} md={6}>
+            </Grid>
+            <Grid container item xs={12}>
+              <Grid item xs={12}>
+                <MKTypography variant="h3" align="center" my={2}>
+                  <span style={{ color: "#2E8B57" }}>
+                    Exclusive Stage Sponsors
+                  </span>
+                </MKTypography>
+              </Grid>
+              <Grid item xs={12} md={4}>
                 <div>
-                  <a target="_blank" href="https://vortexoptics.com/">
+                  <a target="_blank" href="https://www.dillonprecision.com/">
                     <img
-                      src={vortexOpticsLogo}
+                      src={dillonLogo}
                       style={{
                         margin: "1rem auto",
                         display: "block",
                         maxWidth: "95%",
-                        maxHeight: "125px",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://timneytriggers.com/">
+                    <img
+                      src={timneyTriggersLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
+                      }}
+                    ></img>
+                  </a>
+                </div>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <div>
+                  <a target="_blank" href="https://apollo-usa.com/">
+                    <img
+                      src={apolloArmsLogo}
+                      style={{
+                        margin: "1rem auto",
+                        display: "block",
+                        maxWidth: "95%",
+                        maxHeight: "200px",
                       }}
                     ></img>
                   </a>
@@ -230,21 +299,6 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={4}>
                 <div>
-                  <a target="_blank" href="https://www.dillonprecision.com/">
-                    <img
-                      src={dillonLogo}
-                      style={{
-                        margin: "1rem auto",
-                        display: "block",
-                        maxWidth: "95%",
-                        maxHeight: "200px",
-                      }}
-                    ></img>
-                  </a>
-                </div>
-              </Grid>
-              <Grid item xs={12} md={4}>
-                <div>
                   <a target="_blank" href="https://www.redhilltactical.com/">
                     <img
                       src={redhillTacticalLogo}
@@ -260,24 +314,9 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={4}>
                 <div>
-                  <a target="_blank" href="https://www.rollsizer.com/">
+                  <a target="_blank" href="https://www.ergogrips.net/">
                     <img
-                      src={rollsizerLogo}
-                      style={{
-                        margin: "1rem auto",
-                        display: "block",
-                        maxWidth: "95%",
-                        maxHeight: "200px",
-                      }}
-                    ></img>
-                  </a>
-                </div>
-              </Grid>
-              <Grid item xs={12} md={4}>
-                <div>
-                  <a target="_blank" href="https://timneytriggers.com/">
-                    <img
-                      src={timneyTriggersLogo}
+                      src={ergoGripLogo}
                       style={{
                         margin: "1rem auto",
                         display: "block",
@@ -320,9 +359,9 @@ export default function Sponsors() {
               </Grid>
               <Grid item xs={12} md={4}>
                 <div>
-                  <a target="_blank" href="https://www.ergogrips.net/">
+                  <a target="_blank" href="https://www.rollsizer.com/">
                     <img
-                      src={ergoGripLogo}
+                      src={rollsizerLogo}
                       style={{
                         margin: "1rem auto",
                         display: "block",
@@ -333,7 +372,7 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
-              <Grid item xs={12} md={4}>
+              <Grid item xs={12}>
                 <a target="_blank" href="https://cmore.com/">
                   <img
                     src={cmoreLogo}
@@ -341,7 +380,7 @@ export default function Sponsors() {
                       margin: "1rem auto",
                       display: "block",
                       maxWidth: "95%",
-                      maxHeight: "200px",
+                      maxHeight: "100px",
                     }}
                   ></img>
                 </a>
