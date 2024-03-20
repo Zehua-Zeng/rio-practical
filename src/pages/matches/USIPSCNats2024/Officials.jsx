@@ -183,7 +183,7 @@ export default function Sponsors() {
                   Alan Glickman
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
-                  Alma Grace Sara
+                  Alma Grace Sarra
                   <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
                   Amanda Fisher
@@ -252,7 +252,7 @@ export default function Sponsors() {
                   John Catterall
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
-                  Joseph Arestorinas
+                  Joseph Aristorenas
                   <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
                   Justin Fuller
@@ -306,7 +306,7 @@ export default function Sponsors() {
                   Rob Pickering
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
-                  Rosanna Arestorinas
+                  Rosana Aristorenas
                   <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
                   Ross Chu
