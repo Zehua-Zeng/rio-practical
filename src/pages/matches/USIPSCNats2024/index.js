@@ -196,7 +196,7 @@ export default function USIPSCNats2024() {
             </MKTypography>
             <MKTypography variant="body1" fontWeight="regular" mb={1} pr={2}>
               <b>
-                <u>Match Officials</u> are updated (Last Update - Mar 19, 2024):{" "}
+                <u>Match Officials</u> are updated (Last Update - Mar 21, 2024):{" "}
               </b>{" "}
               <a href="#/matches/2024-us-ipsc-nats/officials">
                 click to check officials

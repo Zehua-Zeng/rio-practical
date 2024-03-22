@@ -149,9 +149,6 @@ export default function Sponsors() {
                   Mike Carraher
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
-                  Philip Joey Racaza
-                  <span style={{ margin: "5px" }} class="fi fi-ph"></span>
-                  <br />
                   Reynaldo Ganaban
                   <span style={{ margin: "5px" }} class="fi fi-ph"></span>
                   <br />
@@ -276,6 +273,9 @@ export default function Sponsors() {
                   Matthew Fox
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
+                  Mel Jacinto
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
                   Michael McCrite
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
@@ -319,6 +319,9 @@ export default function Sponsors() {
                   <span style={{ margin: "5px" }} class="fi fi-us"></span>
                   <br />
                   Warren Zieper
+                  <span style={{ margin: "5px" }} class="fi fi-ca"></span>
+                  <br />
+                  Will Soucie
                   <span style={{ margin: "5px" }} class="fi fi-ca"></span>
                 </MKTypography>
               </Grid>
