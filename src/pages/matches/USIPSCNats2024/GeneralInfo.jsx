@@ -92,21 +92,30 @@ export default function GeneralInfo() {
             {/* 1 */}
             <Grid item xs={12} lg={3}>
               <MKTypography variant="h4" color="text" align="center">
-                Shooting Schedule
+                Equipment Check Schedule, Location & Handbook
               </MKTypography>
             </Grid>
             <Grid item xs={12} lg={9}>
               <MKTypography variant="body1" color="text" fontWeight="light">
-                <b>Pre-Match</b> Registration and Equipment Check:{" "}
-                <b>Apr. 9, 2024</b>
+                <b>Pre-Match</b> Registration and Equipment Check:
                 <br />
-                Time: TBD
+                <b>Apr. 9, 2024 (Tuesday):</b> 1pm -- 4pm
+                <br />
+                <b>Apr. 10, 2024 (Wednesday):</b> 8:30am -- 12:30pm
                 <br />
                 <br />
-                <b>Main-Match</b> Registration and Equipment Check:{" "}
-                <b>Apr. 11, 2024</b>
+                <b>Main-Match</b> Registration and Equipment Check:
                 <br />
-                Time: TBD
+                <b>Apr. 11, 2024 (Thursday):</b> 10am -- 4pm
+                <br />
+                <b>Apr. 12, 2024 (Friday):</b> 8:30am -- 12:30pm
+                <br />
+                <br />
+                <b>Location:</b> Outdoor Education and Training Center (OETC)
+                <br />
+                <span style={{ color: "red" }}>
+                  (Please check the bottom-left corner of the range map below.)
+                </span>
                 <br />
                 <br />
                 <b>
