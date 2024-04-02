@@ -40,7 +40,7 @@ import swedenFlag from "assets/images/countries/sweden.png";
 import arubaFlag from "assets/images/countries/aruba.png";
 import germanyFlag from "assets/images/countries/germany.png";
 import netherlandsFlag from "assets/images/countries/netherlands.png";
-import southKoreaFlag from "assets/images/countries/south-korea.png";
+import japanFlag from "assets/images/countries/japan.png";
 import curacaoFlag from "assets/images/countries/curacao.png";
 
 function calculateTimeLeft() {
@@ -344,11 +344,7 @@ export default function USIPSCNats2024() {
                 width="25px"
                 style={{ margin: "5px" }}
               ></img>
-              <img
-                src={southKoreaFlag}
-                width="25px"
-                style={{ margin: "5px" }}
-              ></img>
+              <img src={japanFlag} width="25px" style={{ margin: "5px" }}></img>
               <img
                 src={curacaoFlag}
                 width="25px"
