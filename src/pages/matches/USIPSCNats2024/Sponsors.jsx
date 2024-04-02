@@ -31,6 +31,8 @@ import redhillTacticalLogo from "assets/images/sponsors/redhill-tactical.png";
 import czcLogo from "assets/images/sponsors/czc.png";
 import apolloArmsLogo from "assets/images/sponsors/apollo-arms.png";
 import mgmTargetsLogo from "assets/images/sponsors/mgm-targets.png";
+import hogueLogo from "assets/images/sponsors/hogue.png";
+import burrisLogo from "assets/images/sponsors/burris.png";
 
 export default function Sponsors() {
   return (
@@ -372,7 +374,7 @@ export default function Sponsors() {
                   </a>
                 </div>
               </Grid>
-              <Grid item xs={12}>
+              <Grid item xs={12} md={4}>
                 <a target="_blank" href="https://cmore.com/">
                   <img
                     src={cmoreLogo}
@@ -380,7 +382,33 @@ export default function Sponsors() {
                       margin: "1rem auto",
                       display: "block",
                       maxWidth: "95%",
-                      maxHeight: "100px",
+                      maxHeight: "200px",
+                    }}
+                  ></img>
+                </a>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <a target="_blank" href="https://www.burrisoptics.com/">
+                  <img
+                    src={burrisLogo}
+                    style={{
+                      margin: "1rem auto",
+                      display: "block",
+                      maxWidth: "95%",
+                      maxHeight: "200px",
+                    }}
+                  ></img>
+                </a>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <a target="_blank" href="https://www.hogueinc.com/">
+                  <img
+                    src={hogueLogo}
+                    style={{
+                      margin: "1rem auto",
+                      display: "block",
+                      maxWidth: "95%",
+                      maxHeight: "200px",
                     }}
                   ></img>
                 </a>

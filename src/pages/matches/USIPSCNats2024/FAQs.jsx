@@ -375,7 +375,18 @@ export default function FAQs() {
                 </AccordionSummary>
                 <AccordionDetails>
                   <MKTypography variant="body2" color="text" fontWeight="light">
-                    Information Coming Soon.
+                    Please ship ammo to the following address with this format:{" "}
+                    <br />
+                    <b>
+                      [Your Name] (For 2024 IPSC Hangun Nationals)
+                      <br />
+                      C/O Jim Adame
+                      <br />
+                      Rio Salado Sportsman's Club,
+                      <br />
+                      3960 N Usery Pass Road, <br />
+                      Mesa, AZ 85207
+                    </b>
                   </MKTypography>
                 </AccordionDetails>
               </Accordion>
@@ -392,7 +403,10 @@ export default function FAQs() {
                 </AccordionSummary>
                 <AccordionDetails>
                   <MKTypography variant="body2" color="text" fontWeight="light">
-                    Information Coming Soon.
+                    You can use USPSA Certified Ammunition for the match:{" "}
+                    <a target="_blank" href="https://uspsa.org/ammunition">
+                      https://uspsa.org/ammunition
+                    </a>
                   </MKTypography>
                 </AccordionDetails>
               </Accordion>

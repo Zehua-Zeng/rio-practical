@@ -196,6 +196,13 @@ export default function USIPSCNats2024() {
             </MKTypography>
             <MKTypography variant="body1" fontWeight="regular" mb={1} pr={2}>
               <b>
+                <u>Match Sponsors</u> are updated (Last Update - Apr 2, 2024):{" "}
+              </b>{" "}
+              <a href="#/matches/2024-us-ipsc-nats/sponsors">
+                click to check sponsors
+              </a>
+              <br />
+              <b>
                 <u>Equipment Check Schedule, Location & Handbook</u> is updated
                 (Last Update - Mar 29, 2024):{" "}
               </b>{" "}
@@ -223,13 +230,6 @@ export default function USIPSCNats2024() {
               </b>{" "}
               <a href="#/matches/2024-us-ipsc-nats/general-info">
                 click to check general information
-              </a>
-              <br />
-              <b>
-                <u>Match Sponsors</u> are updated (Last Update - Mar 18, 2024):{" "}
-              </b>{" "}
-              <a href="#/matches/2024-us-ipsc-nats/sponsors">
-                click to check sponsors
               </a>
             </MKTypography>
           </Grid>
