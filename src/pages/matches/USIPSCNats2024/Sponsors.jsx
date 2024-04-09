@@ -33,6 +33,7 @@ import apolloArmsLogo from "assets/images/sponsors/apollo-arms.png";
 import mgmTargetsLogo from "assets/images/sponsors/mgm-targets.png";
 import hogueLogo from "assets/images/sponsors/hogue.png";
 import burrisLogo from "assets/images/sponsors/burris.png";
+import magpulLogo from "assets/images/sponsors/magpul.png";
 
 export default function Sponsors() {
   return (
@@ -409,6 +410,19 @@ export default function Sponsors() {
                       display: "block",
                       maxWidth: "95%",
                       maxHeight: "200px",
+                    }}
+                  ></img>
+                </a>
+              </Grid>
+              <Grid item xs={12}>
+                <a target="_blank" href="https://magpul.com/">
+                  <img
+                    src={magpulLogo}
+                    style={{
+                      margin: "1rem auto",
+                      display: "block",
+                      maxWidth: "95%",
+                      maxHeight: "60px",
                     }}
                   ></img>
                 </a>
